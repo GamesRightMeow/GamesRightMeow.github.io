@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
-	<meta name="generator" content="Hugo 0.36" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,8 +38,6 @@ ga('send', 'pageview');
 </script>
 
 
-    <meta http-equiv="refresh" content="0; url=/games" />
-
     <body class="mdc-typography">
         <section>
     <div class="logo">
@@ -75,11 +72,47 @@ ga('send', 'pageview');
     </nav>
 </section>
 
-        <section>
-            
+        <section class="content content-game-list">
+            <div class="mdc-layout-grid">
+                <div class="mdc-layout-grid__inner">
+                    
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-tablet"></div>
+                    
+                    <div class="mdc-layout-grid__cell">
+                        
+                        <a href="/games/nodoku/" class="mdc-card game-card mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        
+                            <div class="mdc-card__media mdc-card__media--square" style="background-image: url(/games/nodoku/icon.png);"></div>
+                            <div class="game-card__primary">
+                                <h2 class="game-card__title mdc-typography--title">
+                                    Nodoku
+                                </h2>
+                            </div>
+                            <div class="game-card__secondary mdc-typography--body1">
+                                A new kind of numbers game.
+                            </div>
+                            <br>
+                        
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
         </section>
 
-        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-        <script>window.mdc.autoInit();</script>
+        <section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+  <script>
+      var list = sitenav.querySelector("#games");
+      if (list != null)
+      {
+        list.classList.add('mdc-tab--active');
+      }
+  </script>
+</section>
     </body>
 </html>

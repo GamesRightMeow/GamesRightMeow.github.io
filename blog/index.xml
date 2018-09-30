@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Games Right Meow</title>
-    <link>http://gamesrightmeow.com/</link>
-    <description>Recent content on Games Right Meow</description>
+    <title>Blog on Games Right Meow</title>
+    <link>http://gamesrightmeow.com/blog/</link>
+    <description>Recent content in Blog on Games Right Meow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jul 2018 12:25:37 -0500</lastBuildDate>
     
-	<atom:link href="http://gamesrightmeow.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gamesrightmeow.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,16 +28,6 @@
       
       <guid>http://gamesrightmeow.com/blog/2018/02/beware-i-live/</guid>
       <description>I am Sinistar Games Right Meow</description>
-    </item>
-    
-    <item>
-      <title>Nodoku</title>
-      <link>http://gamesrightmeow.com/games/nodoku/</link>
-      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://gamesrightmeow.com/games/nodoku/</guid>
-      <description>Nodoku Nodoku offers a brain-bending new way to play with numbers, kill time, and stay sharp. Use your mathematical super powers to discover additive sequences and solve clean, colorful, free-form line puzzles.
-Snappy animations and transitions make this addictive, compulsively playable game ideal for quick plays on the bus or for marathon sessions while you binge Netflix. With 100+ handcrafted, deceptively simple levels, Nodoku is easy to learn, but tricky to master.</description>
     </item>
     
   </channel>
