@@ -1,0 +1,13 @@
+<section>
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script>
+    window.mdc.autoInit();
+  </script>
+  <script>
+      var list = sitenav.querySelector("#{{ lower .CurrentSection.Title }}");
+      if (list != null)
+      {
+        list.classList.add('mdc-tab--active');
+      }
+  </script>
+</section>

@@ -1,0 +1,18 @@
+<section>
+    <div class="logo">
+        <a href="/"><img src="/images/logo.svg" /></a>
+    </div>
+</section>
+
+<section>
+    <nav id="sitenav" class="mdc-tab-bar" role="tablist">
+        {{ range $element := sort $.Site.Sections "Params.navindex" "asc" }}
+            {{ if isset .Params "navindex" }}
+            <a id="{{ lower $element.Title }}" class="mdc-tab mdc-ripple-surface" href="{{ $element.URL }}" data-mdc-auto-init="MDCRipple">
+                {{ $element.Title }}
+                <span class="mdc-tab__indicator"></span>
+            </a>
+            {{ end }}
+        {{ end }}
+    </nav>
+</section>

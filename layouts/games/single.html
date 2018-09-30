@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {{ partial "header.html" . }}
+    
+    {{ template "_internal/google_analytics.html" . }}
+
+    <body class="mdc-typography">
+        {{ partial "navigation.html" . }}
+
+        <section class="content">
+            <div class="mdc-card">
+                <div class="mdc-card__media mdc-card__media--16-9 card-cover" style="background-image: url({{ .Params.cover }});"></div>
+            </div>
+            <br>
+            <div class="mdc-card content-card">
+                <div class="mdc-typography--body1 content-text">{{ .Content }}</div>
+
+                <div class="">
+                    {{ range $index, $element := .Params.gamelinks }}
+                    <a href="{{ index . 2 }}" class="mdc-button mdc-button--raised mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+                        <i class="fab {{ index . 1 }} fa-lg"></i>
+                        {{ index . 0 }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            <br>
+            <div class="mdc-layout-grid thumbnail-grid">
+                <div class="mdc-layout-grid__inner">
+                    {{ range $element := .Params.screenshots }}
+                    <div class="mdc-layout-grid__cell">
+                        <div class="mdc-card thumbnail">
+                            <div class="mdc-card__media mdc-card__media--16-9 mdc-ripple-surface" data-mdc-auto-init="MDCRipple" style="height:100%;background-image: url({{ $element }});"></div>
+                            <!-- <img src="{{ $element }}" class="portrait" alt="Image" /> -->
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox-target" id="dog">
+            <img src="/images/roadtrip.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+        </div>
+
+        <script>
+            // loop through all thumbs
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.getElementsByTagName("img")[0]
+            var thumbnails = document.getElementsByClassName('thumbnail');
+            for (var i = 0, len = thumbnails.length; i < len; i++)
+            {
+                var img = thumbnails[i].getElementsByTagName("div")[0];
+                thumbnails[i].onclick = function()
+                {
+                    lightbox.style.display = "block";
+                    lightboxImg.src = this.getElementsByTagName("div")[0].style.backgroundImage.slice(4, -1).replace(/"/g, "");
+                }
+
+                // remove portrait tag from all landscape thumbs
+                if (img.naturalWidth > img.naturalHeight)
+                {
+                    img.classList.remove("portrait");
+                }
+            }
+            
+            lightbox.onclick = function() 
+            { 
+                lightbox.style.display = "none";
+            }
+        </script>
+
+        {{ partial "footer.html" . }}
+    </body>
+</html>

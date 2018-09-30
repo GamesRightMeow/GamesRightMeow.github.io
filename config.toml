@@ -1,0 +1,16 @@
+baseURL = "http://gamesrightmeow.com/"
+languageCode = "en-us"
+title = "Games Right Meow"
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
+publishDir = "public"
+googleAnalytics  = "UA-114648620-1"
+[permalinks]
+  blog = "blog/:year/:month/:title/"
+  games = "games/:title/"
+
+[params]
+description = "Games Right Meow is a one-man studio based in Madison, Wisconsin. The studio was founded by Alex Larioza in 2018 with the mission of making games that don't suck."
+keywords = """video games, games, cats, meow, cat, android, ios, steam, 
+  alex, larioza, material, abstract, design, development, programming,
+  developer, studio, unity, unity3d, mobile, fun, bored, madison, 
+  wisconsin, indie, solo, dev, arcade, puzzle, app, apple, google, play"""

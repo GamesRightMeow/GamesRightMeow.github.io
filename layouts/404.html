@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    {{ partial "header.html" . }}
+    
+    {{ template "_internal/google_analytics.html" . }}
+
+    <!-- <meta http-equiv="refresh" content="0; url=/games" /> -->
+    <style>
+        .parent
+        {
+            width: 100%;
+            height: 100%;
+            display: table;
+            text-align: center;
+        }
+        .child
+        {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+    <body>
+        <div class="parent">
+            <a class="child" href="/"><img src="/images/404.svg" /></a>
+        </div>
+    </body>
+</html>
