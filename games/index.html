@@ -47,29 +47,64 @@ ga('send', 'pageview');
 
 <section>
     <nav id="sitenav" class="mdc-tab-bar" role="tablist">
-        
-            
-            <a id="games" class="mdc-tab mdc-ripple-surface" href="/games/" data-mdc-auto-init="MDCRipple">
-                Games
-                <span class="mdc-tab__indicator"></span>
-            </a>
-            
-        
-            
-            <a id="blog" class="mdc-tab mdc-ripple-surface" href="/blog/" data-mdc-auto-init="MDCRipple">
-                Blog
-                <span class="mdc-tab__indicator"></span>
-            </a>
-            
-        
-            
-            <a id="about" class="mdc-tab mdc-ripple-surface" href="/about/" data-mdc-auto-init="MDCRipple">
-                About
-                <span class="mdc-tab__indicator"></span>
-            </a>
-            
-        
+        <div class="mdc-tab-scroller" style="width: 512px; margin: 0 auto">
+            <div class="mdc-tab-scroller__scroll-area">
+                 
+                
+                    
+                    <div class="mdc-tab-scroller__scroll-content">
+                        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onclick="location.href='\/games\/';">
+                        
+                        <span class="mdc-tab__content">
+                            <span class="mdc-tab__text-label">Games</span>
+                        </span>
+
+                        
+                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                        </span>
+                        
+                        
+                        <span class="mdc-tab__ripple"></span>
+                        </button>
+                    </div>
+                    
+                
+                    
+                    <div class="mdc-tab-scroller__scroll-content">
+                        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onclick="location.href='\/blog\/';">
+                        
+                        <span class="mdc-tab__content">
+                            <span class="mdc-tab__text-label">Blog</span>
+                        </span>
+
+                        
+                        
+                        <span class="mdc-tab__ripple"></span>
+                        </button>
+                    </div>
+                    
+                
+                    
+                    <div class="mdc-tab-scroller__scroll-content">
+                        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0" onclick="location.href='\/about\/';">
+                        
+                        <span class="mdc-tab__content">
+                            <span class="mdc-tab__text-label">About</span>
+                        </span>
+
+                        
+                        
+                        <span class="mdc-tab__ripple"></span>
+                        </button>
+                    </div>
+                    
+                
+
+            </div>
+        </div>
     </nav>
+    
 </section>
 
         <section class="content content-game-list">
