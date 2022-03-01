@@ -4,4 +4,21 @@ layout: main
 ---
 
 
-Games Right Meow
+{%- for post in collections.post -%}
+  <div class="p-4 flex space-x-4">
+    <span class="flex flex-col">
+      <div class="text-gray-500 text-2xl font-normal uppercase text-center">{{ post.date | date: "%b" }}</div>
+      <div class="text-gray-300 h-8 tracking-tighter leading-9 text-6xl font-normal text-center">{{ post.date | date: "%d" }}</div>
+      <div class="text-gray-500 translate-y-1 tracking-tighter text-3xl font-normal text-center">{{ post.date | date: "%Y" }}</div>
+    </span>
+
+    <span class="p-2 flex flex-col justify-center">
+      <div class="text-4xl leading-6 font-black align-middle uppercase">
+        <a class="transition duration-500 ease-in-out hover:text-red-500" href="{{ post.url }}">
+          {{ post.data.title }}
+        </a>
+      </div>
+      <div class="font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </span>
+  </div>
+{%- endfor -%}
