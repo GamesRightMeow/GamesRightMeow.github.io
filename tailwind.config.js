@@ -15,6 +15,10 @@ module.exports = {
 
   content: ['src/**/*.liquid'],
 
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
+
   theme: {
     fontFamily: {
       sans: [

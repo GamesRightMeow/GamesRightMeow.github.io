@@ -8,6 +8,7 @@
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",
     "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
+    "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
     "debug": "^4.3.3",
