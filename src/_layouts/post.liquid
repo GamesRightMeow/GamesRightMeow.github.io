@@ -2,20 +2,18 @@
 layout: main
 ---
 <div class="pt-4 flex space-x-4 justify-center">
-  <span class="flex flex-col">
-    <div class="text-gray-500 text-xl font-normal uppercase text-center">{{ date | date: "%b" }}</div>
-    <div class="h-8 tracking-tighter leading-9 text-5xl font-normal text-center">{{ date | date: "%d" }}</div>
-    <div class="text-gray-500 translate-y-1 tracking-tighter text-2xl font-normal text-center">{{ date | date: "%Y" }}
-    </div>
-  </span>
-
-  <span class="p-2 flex flex-col justify-center">
+  <span class="p-2 flex flex-col">
     <div class="text-red-400 text-4xl leading-6 font-black align-middle uppercase">
       {{ title }}
     </div>
+
+    <div class="font-thin italic">
+      {{ date | date: "%B %d %Y" }}
+    </div>
+
     <article class="
       pt-4
-      prose text-custom-white prose-base
+      prose text-custom-white prose-base text-sm md:text-base
       prose-headings:text-custom-white prose-strong:text-custom-white 
       prose-h1:text-3xl
       prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
