@@ -13,7 +13,7 @@ module.exports = {
   //   },
   // },
 
-  content: ['_site/**/*.html'],
+  content: ['src/**/*.liquid'],
 
   theme: {
     fontFamily: {
@@ -39,6 +39,7 @@ module.exports = {
       '6xl': '4rem',
       '7xl': '5rem',
     },
+
     extend: {
       spacing: {
         '192': '48rem',
