@@ -21,6 +21,9 @@ module.exports = {
 
   theme: {
     fontFamily: {
+      title: [
+        'Smooch Sans'
+      ],
       sans: [
         'Roboto',
         'sans-serif',
@@ -47,6 +50,19 @@ module.exports = {
     extend: {
       spacing: {
         '192': '48rem',
+      },
+      colors: {
+        'custom-black': '#101419',
+        'custom-white': '#D1D5DB',
+        'custom-link': '#F87171',
+        'custom-link-hover': '#EF4444',
+
+        'custom-1': '#D1D5DB',
+        'custom-2': '#2e3440',
+
+        'custom-3': '#6786E8',
+        'custom-4': '#998796',
+        'custom-5': '#241519',
       }
     }
   },
