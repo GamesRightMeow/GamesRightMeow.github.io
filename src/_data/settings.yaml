@@ -1,6 +1,6 @@
 {
   "navigation": [
-    { "name": "Home", "url":"/" },
+    { "name": "blog", "url":"/" },
     { "name": "About", "url":"/" },
     { "name": "tags", "url":"/" },
   ]
