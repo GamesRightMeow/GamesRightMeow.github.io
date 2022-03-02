@@ -1,10 +1,13 @@
 const Image = require("@11ty/eleventy-img");
+const yaml = require("js-yaml");
 const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === 'production') {
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
   }
+
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   eleventyConfig.addWatchTarget('./_tmp/style.css')
 
