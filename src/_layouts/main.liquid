@@ -18,7 +18,7 @@
   <div class="flex flex-col items-center overflow-x-hidden">
     <header class="text-center">
       <div class="text-custom-1 text-5xl md:text-6xl font-title leading-10 uppercase">Games Right Meow</div>
-      <div class="text-custom-1 text-xs md:text-sm lowercase translate-y-1">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
+      <div id="tagline" class="text-custom-1 text-xs md:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
     </header>
 
     <nav class="mt-4 w-192 divide-y divide-gray-500">
@@ -35,6 +35,23 @@
   <main>
     {{ content }}
   </main>
+
+  <script type="application/javascript">
+    function randomize() {
+      // this is weird, but the most straight forward way i could 
+      // figure out how to get template data into javascript
+      let options = "{{ settings.taglines | join: ';' }}"
+      let optionsArray = options.split(";")
+      let index = Math.floor(Math.random() * optionsArray.length)
+      let tagElement = document.getElementById("tagline")
+      tagElement.textContent = optionsArray[index]
+    }
+
+    let tagElement = document.getElementById("tagline")
+    tagElement.onclick = randomize
+
+    randomize()
+  </script>
 
 </body>
 
