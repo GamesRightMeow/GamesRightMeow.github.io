@@ -1,8 +1,6 @@
 # todo
-* tag cloud page
-* about page
-* show tags in posts
 * RSS
+* setup github actions to auto deploy
 
 # Run locally
 `npm run serve`
