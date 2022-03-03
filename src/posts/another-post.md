@@ -1,5 +1,6 @@
 ---
 title: Another post
+subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2021-01-01
 tags: post
 layout: post
