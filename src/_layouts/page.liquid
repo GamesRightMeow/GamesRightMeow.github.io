@@ -7,10 +7,6 @@ layout: main
       {{ title }}
     </div>
 
-    <div class="font-thin italic">
-      {{ page.date | formatDate: "MMMM DD YYYY" }}
-    </div>
-
     <article class="
       pt-4
       prose text-custom-white prose-base text-sm md:text-base
@@ -23,17 +19,6 @@ layout: main
     ">
       {{ content }}
     </article>
-
-    <div class="mt-8 flex gap-2">
-      <span class="text-lg font-black uppercase">tags</span>
-      {%- for tag in tags -%}
-        {% if tag == "post" %}
-          {% continue %}
-        {% endif %}
-
-        <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag }}">{{ tag }}</a>
-      {%- endfor -%}
-    </div>
   </span>
 </div>
 

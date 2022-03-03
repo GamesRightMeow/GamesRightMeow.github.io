@@ -2,7 +2,10 @@
 title: Hello world!
 subtitle: In hac habitasse platea dictumst. Duis elementum ex at quam efficitur, ac dapibus magna ullamcorper.
 date: 2021-03-21
-tags: post
+tags: 
+  - post
+  - general
+  - games
 layout: post
 ---
 

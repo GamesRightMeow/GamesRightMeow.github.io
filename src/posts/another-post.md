@@ -2,7 +2,10 @@
 title: Another post
 subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2021-01-01
-tags: post
+tags: 
+  - post
+  - games
+  - horizon zero dawn
 layout: post
 ---
 

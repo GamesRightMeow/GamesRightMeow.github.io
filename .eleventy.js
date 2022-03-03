@@ -21,6 +21,10 @@ module.exports = function (eleventyConfig) {
     return moment.utc(utc).format(format);
   });
 
+  eleventyConfig.addLiquidFilter("length", function(array) {
+    return array.length
+  });
+
   return {
     dir: {
       input: "src",

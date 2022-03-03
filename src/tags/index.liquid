@@ -1,0 +1,14 @@
+---
+title: All Tags
+tags: page
+layout: page
+---
+
+<div class="flex gap-2 w-64 md:w-128">
+  {%- for tag in collections -%}
+    {% if tag[0] == "post" or tag[0] == "all" or tag[0] == "page" %}
+      {% continue %}
+    {% endif %}
+    <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag[0] | replace: " ", "-" }}">{{ tag[0] }}<sup>{{ tag[1] | size }}</sup></a>
+  {%- endfor -%}
+<div>
