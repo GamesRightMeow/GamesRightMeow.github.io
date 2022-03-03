@@ -1,6 +1,6 @@
 ---
 title: Another post
-date: Last Modified
+date: 2021-01-01
 tags: post
 layout: post
 ---

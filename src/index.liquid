@@ -7,9 +7,9 @@ layout: main
   {%- for post in collections.post -%}
   <div class="p-4 flex space-x-4">
     <span class="flex flex-col">
-      <div class="text-gray-500 text-xl font-normal uppercase text-center">{{ post.date | date: "%b" }}</div>
-      <div class="h-8 tracking-tighter leading-9 text-5xl font-normal text-center">{{ post.date | date: "%d" }}</div>
-      <div class="text-gray-500 translate-y-1 tracking-tighter text-2xl font-normal text-center">{{ post.date | date: "%Y" }}</div>
+      <div class="text-gray-500 text-md font-normal uppercase text-center">{{ post.date | formatDate: "MMM" }}</div>
+      <div class="h-8 tracking-tighter leading-9 text-4xl font-normal text-center">{{ post.date | formatDate: "DD" }}</div>
+      <div class="text-gray-500 translate-y-1 tracking-tighter text-xl font-normal text-center">{{ post.date | formatDate: "YYYY" }}</div>
     </span>
 
     <span class="p-2 flex flex-col justify-center">
