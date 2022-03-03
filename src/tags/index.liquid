@@ -9,6 +9,6 @@ layout: page
     {% if tag[0] == "post" or tag[0] == "all" or tag[0] == "page" %}
       {% continue %}
     {% endif %}
-    <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag[0] | replace: " ", "-" }}">{{ tag[0] }}<sup>{{ tag[1] | size }}</sup></a>
+    <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}<sup>{{ tag[1] | size }}</sup></a>
   {%- endfor -%}
 <div>
