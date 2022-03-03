@@ -1,8 +1,8 @@
 {
   "navigation": [
     { "name": "blog", "url":"/" },
-    { "name": "About", "url":"/" },
-    { "name": "tags", "url":"/" },
+    { "name": "About", "url":"/about" },
+    { "name": "tags", "url":"/tags" },
   ],
   "taglines": [
     # random
@@ -32,7 +32,7 @@
     "legitimate salvage",
     
     # it crowd
-    "hello IT have you tried turning it off and on again",
+    "hello I.T. have you tried turning it off and on again",
 
     # stargate
     "indeed",
