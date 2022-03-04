@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget('./_tmp/style.css')
 
+  eleventyConfig.addPassthroughCopy({ './src/CNAME': './CNAME' })
   eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })
   eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' })
