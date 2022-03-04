@@ -19,7 +19,9 @@ layout: main
             {{ post.data.title }}
           </a>
         </div>
-        <div class="truncate whitespace-nowrap text-sm md:text-base font-normal -translate-y-1">{{ post.data.subtitle }}</div>
+        <div class="truncate whitespace-nowrap text-sm md:text-base font-normal -translate-y-1">
+          {{ post.data.subtitle | split: 0, 75 }}
+        </div>
       </div>
     </article>
     {%- endfor -%}
