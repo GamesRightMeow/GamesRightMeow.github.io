@@ -1,5 +1,4 @@
 # todo
-* RSS
 * setup github actions to auto deploy
 
 # Run locally

@@ -9,6 +9,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@sherby/eleventy-plugin-files-minifier": "^1.1.1",
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",

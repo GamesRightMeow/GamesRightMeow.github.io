@@ -1,8 +1,9 @@
 {
   "navigation": [
-    { "name": "blog", "url":"/" },
-    { "name": "About", "url":"/about" },
-    { "name": "tags", "url":"/tags" },
+    { "name": "blog", "url": "/" },
+    { "name": "About", "url": "/about" },
+    { "name": "tags", "url": "/tags" },
+    # { "name": "store", "url": "" },
   ],
   "taglines": [
     # random
