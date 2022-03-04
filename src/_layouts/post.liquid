@@ -2,16 +2,18 @@
 layout: main
 ---
 <div class="pt-4 flex space-x-4 justify-center">
-  <span class="p-2 flex flex-col">
-    <div class="text-custom-white text-4xl leading-6 font-black align-middle uppercase">
-      {{ title }}
-    </div>
+  <div class="p-2 flex flex-col">
+    <header>
+      <div class="text-custom-white text-4xl leading-6 font-black align-middle uppercase">
+        {{ title }}
+      </div>
 
-    <div class="font-thin italic">
-      {{ page.date | formatDate: "MMMM DD YYYY" }}
-    </div>
+      <div class="font-thin italic">
+        {{ page.date | formatDate: "MMMM DD YYYY" }}
+      </div>
+    </header>
 
-    <article class="
+    <main class="
       pt-4
       prose text-custom-white prose-base text-sm md:text-base
       prose-headings:text-custom-white prose-strong:text-custom-white 
@@ -22,10 +24,10 @@ layout: main
       prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
     ">
       {{ content }}
-    </article>
+    </main>
 
-    <div class="mt-8 flex gap-2">
-      <span class="text-lg font-black uppercase">tags</span>
+    <footer class="mt-8 flex gap-2">
+      <div class="text-lg font-black uppercase">tags</div>
       {%- for tag in tags -%}
         {% if tag == "post" %}
           {% continue %}
@@ -33,7 +35,7 @@ layout: main
 
         <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag }}">{{ tag }}</a>
       {%- endfor -%}
-    </div>
-  </span>
+    </footer>
+  </div>
 </div>
 

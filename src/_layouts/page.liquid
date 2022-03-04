@@ -2,12 +2,12 @@
 layout: main
 ---
 <div class="pt-4 flex space-x-4 justify-center">
-  <span class="p-2 flex flex-col">
-    <div class="text-custom-white text-4xl leading-6 font-black align-middle uppercase">
+  <div class="p-2 flex flex-col">
+    <header class="text-custom-white text-4xl leading-6 font-black align-middle uppercase">
       {{ title }}
-    </div>
+    </header>
 
-    <article class="
+    <main class="
       pt-4
       prose text-custom-white prose-base text-sm md:text-base
       prose-headings:text-custom-white prose-strong:text-custom-white 
@@ -18,7 +18,7 @@ layout: main
       prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
     ">
       {{ content }}
-    </article>
-  </span>
+    </main>
+  </div>
 </div>
 

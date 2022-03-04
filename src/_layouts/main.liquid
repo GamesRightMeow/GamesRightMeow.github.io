@@ -4,6 +4,8 @@
 <head>
   <title>{{ title }}</title>
 
+  <meta name="description" content="You gotta be kitten me; this is just another videogame and TTRPG blog!">
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -28,34 +30,34 @@
 <body class="text-custom-white bg-custom-black p-8">
 
   <div class="flex flex-col items-center overflow-x-hidden">
-    <header class="text-center">
+    <div class="text-center">
       <div class="text-custom-1 text-5xl md:text-6xl font-title leading-10 uppercase">Games Right Meow</div>
       <div id="tagline" class="text-custom-1 text-xs md:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
-    </header>
+    </div>
 
     <nav class="mt-4 w-192 divide-y divide-gray-500">
       <!-- border -->
       <div></div>
 
-      <div class="flex justify-center">
+      <nav class="flex justify-center">
         <div class="flex space-x-4 justify-center">
           {% for item in settings.navigation %}
           <a class="text-custom-link hover:bg-gray-800 text-lg font-semibold lowercase" href="{{ item.url }}">{{ item.name }}</a>
           {% endfor %}
           <a href="/feed.xml" class="flex justify-center hover:bg-gray-800">
-            <img class="text-custom-link" width="13" height="13" src="/media/rss.svg"/>
+            <img alt="RSS feed" class="text-custom-link" width="13" height="13" src="/media/rss.svg"/>
           </a>
         </div>
-      </div>
+      </nav>
       
       <!-- border -->
       <div></div>
     </nav>
   </div>
 
-  <main>
+  <div>
     {{ content }}
-  </main>
+  </div>
 
   <script type="application/javascript">
     function randomize() {
