@@ -1,6 +1,6 @@
 ---
 title: Hello (again) world!
-subtitle: 
+subtitle: I've decided to re-launch as a gaming blog 🚀
 date: 2022-03-03
 tags: 
   - post
