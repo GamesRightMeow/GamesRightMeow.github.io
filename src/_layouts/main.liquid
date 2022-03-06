@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@800&display=swap" rel="stylesheet"> 
 
+  
+  {% if env.production %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEVEL0SWTQ"></script>
   <script>
@@ -25,6 +27,8 @@
 
     gtag('config', 'G-XEVEL0SWTQ');
   </script>
+  {% endif %}
+
 </head>
 
 <body class="text-custom-white bg-custom-black p-8">
