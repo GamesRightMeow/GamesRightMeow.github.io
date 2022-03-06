@@ -35,8 +35,8 @@
 
   <div class="flex flex-col items-center overflow-x-hidden">
     <div class="text-center">
-      <div class="text-custom-1 text-5xl md:text-6xl font-title leading-10 uppercase">Games Right Meow</div>
-      <div id="tagline" class="text-custom-1 text-xs md:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
+      <div class="text-custom-1 text-5xl sm:text-6xl font-title leading-10 uppercase">Games Right Meow</div>
+      <div id="tagline" class="text-custom-1 text-xs sm:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
     </div>
 
     <nav class="mt-4 w-192 divide-y divide-gray-500">
@@ -46,7 +46,7 @@
       <nav class="flex justify-center">
         <div class="flex space-x-4 justify-center">
           {% for item in settings.navigation %}
-          <a class="text-custom-link hover:bg-gray-800 text-lg font-semibold lowercase" href="{{ item.url }}">{{ item.name }}</a>
+          <a class="text-custom-link hover:bg-gray-800 text-base sm:text-lg font-semibold lowercase" href="{{ item.url }}">{{ item.name }}</a>
           {% endfor %}
           <a href="/feed.xml" class="flex justify-center hover:bg-gray-800">
             <img alt="RSS feed" class="text-custom-link" width="13" height="13" src="/media/rss.svg"/>
