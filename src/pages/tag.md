@@ -10,5 +10,3 @@ pagination:
     - page
 permalink: "/tags/{{ tag | slug }}/"
 ---
-
-{{  }}
