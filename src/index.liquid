@@ -4,7 +4,7 @@ layout: article-list
 ---
 
 <main class="w-full">
-  {%- for post in collections.post -%}
+  {%- for post in collections.post reversed -%}
     {% render "article-list-item" date: post.date, url: post.url, title: post.data.title, subtitle: post.data.subtitle %}
   {%- endfor -%}
 </main>
