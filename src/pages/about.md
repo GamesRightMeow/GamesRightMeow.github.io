@@ -5,6 +5,8 @@ permalink: /about/
 layout: page
 ---
 
+If you came here expecting something else (like an indie game studio 😅) see the [introductory blog post](/posts/hello-world).
+
 ![Stargate SG1 GIF of Vala telling Daniel "I'm going to go crazy and I'm taking you with me."](https://thumbs.gfycat.com/AmusingWeeklyGilamonster-max-1mb.gif)
 
 What's this meow? Well its a blog! About what you ask? Mostly video games and TTRPGs 🎲
