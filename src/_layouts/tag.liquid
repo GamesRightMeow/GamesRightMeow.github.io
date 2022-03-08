@@ -9,7 +9,6 @@ layout: article-list
 <!-- TODO: tag descriptor? -->
 
 <main class="w-full">
-  <!-- FIXME: reverse this list so newest is at top -->
   {%- for post in collections[tag] reversed -%}
     {% render "article-list-item" date: post.date, url: post.url, title: post.data.title, subtitle: post.data.subtitle %}
   {%- endfor -%}
