@@ -6,9 +6,9 @@ layout: article-list
   {{ tag }}
 </header>
 
-<!-- TODO: tag descriptor? -->
-
 <main class="w-full">
+  <p>{{ settings.tags[tag] }}</p>
+
   {%- for post in collections[tag] reversed -%}
     {% render "article-list-item" date: post.date, url: post.url, title: post.data.title, subtitle: post.data.subtitle %}
   {%- endfor -%}
