@@ -5,11 +5,15 @@ permalink: /tags/
 layout: page
 ---
 
-<main class="flex gap-2 w-160">
-  {%- for tag in collections -%}
-    {% if tag[0] == "post" or tag[0] == "all" or tag[0] == "page" %}
-      {% continue %}
-    {% endif %}
-    <a class="font-black text-custom-link hover:bg-gray-800" href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}<sup>{{ tag[1] | size }}</sup></a>
+<div class="">
+  {%- for tag in settings.tags -%}
+    <div class="flex gap-1">
+      <a class="font-black text-custom-link hover:bg-gray-800" 
+        href="/tags/{{ tag[0] | slugify }}"
+      >
+        {{ tag[0] }}
+      </a>
+      <div>{{ tag[1] }}</div>
+    </div>
   {%- endfor -%}
-<main>
+<div>
