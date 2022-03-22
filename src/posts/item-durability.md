@@ -16,15 +16,17 @@ TODO: better move name
 
 **When you obtain an important item**, assign it a clock based on its durability or roll on the table below.
 
-TODO: how to make sure the first column stays small?
 
-|  test | Item durability |
+<div class="random-table">
+
+|       | Item durability |
 | ----: | --------------- |
 |  1-10 | 4 segments      |
 | 11-50 | 6 segments      |
 | 50-89 | 8 segments      |
 | 90-00 | 10 segments     |
 
+</div>
 
 
 Assign clocks to important items
