@@ -1,4 +1,7 @@
 {
+  "site": {
+    "description": "You gotta be kitten me; this is just another gaming blog!",
+  },
   "navigation": [
     { "name": "blog", "url": "/" },
     { "name": "About", "url": "/about" },
