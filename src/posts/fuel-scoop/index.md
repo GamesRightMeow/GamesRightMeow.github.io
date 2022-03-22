@@ -6,6 +6,8 @@ tags:
   - post
   - starforged
   - homebrew
+  - ttrpg
+  - solo-rp
 layout: post
 ---
 
