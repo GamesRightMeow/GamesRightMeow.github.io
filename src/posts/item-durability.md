@@ -5,59 +5,26 @@ date: 2022-03-16
 tags: 
   - post
   - starforged
+  - ttrpg
   - homebrew
 layout: post
 ---
 
-TODO: intro blurb
+<!-- TODO: intro blurb -->
 
-TODO: better move name
-## Gain Item
+![](https://media.giphy.com/media/xT5LMsPyEzftjwirrW/giphy.gif)
 
-**When you obtain an important item**, assign it a clock based on its durability or roll on the table below.
+## Acquire an Item
 
+**When you obtain an important item, tool, or piece of equipment**, envision the durability and quality of the item. Then assign it an appropriate clock depending if the item is...
 
-<div class="random-table">
+* fragile or poorly made: 4 segments
+* of ordinary quality: 6 segments
+* rugged or reinforced: 8 segments
+* masterfully well-built: 10 segments
 
-|       | Item durability |
-| ----: | --------------- |
-|  1-10 | 4 segments      |
-| 11-50 | 6 segments      |
-| 50-89 | 8 segments      |
-| 90-00 | 10 segments     |
+When making a move with the item and score a weak hit or a miss, and you must suffer resources, you may progress the clock instead.
 
-</div>
+If the clock is full, the item is unusable until repaired. Envision how the item is damaged or malfunctioning.
 
-
-Assign clocks to important items
-
-Clock length is based on item quality
-
-TODO: what's a good move name?
-## Damage move
-
-When making a move with the item and score a weak hit or a miss, you and must suffer resources, you may progress the clock instead.
-
-When clock is full, item is unusable. Envision what occurs. If need inspiration, roll on table to find breakage
-
-When you Repair the item, clear the clock.
-
-Empty
-
-Damaged
-
-Malfunctioning
-
-Overheated
-
-Dull
-
-Broken
-
-Unresponsive
-
-Jammed
-
-Faulty
-
-???
+When you <u>Repair</u> the item, clear the clock.
