@@ -5,11 +5,12 @@
   "tags": {
     "meta": "News and announcements",
     "ttrpg": "Here be dragons",
+    "video-games": "Here be (virtual) dragons",
     "solo-rp": "Content about rolling solo",
     "homebrew": "Homebrew content from yours truly",
     "starforged": "Ironsworn: Starforged content",
+    "post-mortem": "Project post mortems",
     # TODO: enable these when they have posts assigned to them
-    #"video-games": "Here be (virtual) dragons",
     #"random-tables": "Random tables for generating stuff",
     #"scenarios": "Custom scenarios for your campaigns",
   },
@@ -17,7 +18,7 @@
     { "name": "blog", "url": "/" },
     { "name": "About", "url": "/about" },
     { "name": "tags", "url": "/tags" },
-    # { "name": "store", "url": "" },
+    { "name": "store", "url": "https://gamesrightmeow.itch.io" },
   ],
   "taglines": [
     # random
