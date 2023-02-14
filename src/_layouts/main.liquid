@@ -36,7 +36,9 @@
   <div class="flex flex-col items-center overflow-x-hidden">
     <div class="text-center">
       <div class="text-custom-1 text-5xl sm:text-6xl font-title leading-10 uppercase">Games Right Meow</div>
-      <div id="tagline" class="text-custom-1 text-xs sm:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer">Proin elementum leo orci, in interdum augue sollicitudin sed.</div>
+      <div id="tagline" class="text-custom-1 text-xs sm:text-sm lowercase translate-y-1 hover:underline hover:cursor-pointer italic">
+        Proin elementum leo orci, in interdum augue sollicitudin sed.
+      </div>
     </div>
 
     <nav class="mt-4 w-192 divide-y divide-gray-500">
@@ -71,7 +73,7 @@
       let optionsArray = options.split(";")
       let index = Math.floor(Math.random() * optionsArray.length)
       let tagElement = document.getElementById("tagline")
-      tagElement.textContent = optionsArray[index]
+      tagElement.textContent = `\"${optionsArray[index]}\"`
     }
 
     let tagElement = document.getElementById("tagline")
