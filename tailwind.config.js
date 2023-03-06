@@ -55,9 +55,9 @@ module.exports = {
         '192': '48rem',
       },
       colors: {
-        'custom-black': '#101419',
-        'custom-white': '#D1D5DB',
-        'custom-link': '#F87171',
+        'grm-black': '#101419',
+        'grm-white': '#D1D5DB',
+        'grm-red': '#F87171',
         'custom-link-hover': '#EF4444',
 
         'custom-1': '#D1D5DB',
