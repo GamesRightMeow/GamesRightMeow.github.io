@@ -1,7 +1,7 @@
 ---
 title: GDC 2023
 header: nice to meet you
-no-nav: true
+show-nav: false
 tags: page
 permalink: /gdc/
 layout: page
@@ -13,4 +13,4 @@ Thanks for taking a moment to chat with me about your project. It was awesome he
 
 Keep me updated on how it's going, and if there's anything I can do to help support your efforts, don't hesitate to let me know.
 
-{% render "big-button" label: "get in touch", url: "/contact" %}
+{% render "big-button" label: "let's talk", url: "/contact" %}

@@ -58,7 +58,7 @@ module.exports = {
         'grm-black': '#101419',
         'grm-white': '#D1D5DB',
         'grm-red': '#F87171',
-        'custom-link-hover': '#EF4444',
+        'grm-red-hover': '#EF4444',
 
         'custom-1': '#D1D5DB',
         'custom-2': '#2e3440',

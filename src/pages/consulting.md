@@ -6,7 +6,7 @@ permalink: /consulting/
 layout: page
 ---
 
-I can provide a variety of game-related services that can help bring new projects to life, improve existing ones, and make the development process more efficient. For example, I can:
+I provide a variety of game-related services that help bring new projects to life, improve existing ones, and make the development process more efficient. For example:
 
 * Implement a new feature.
 * Lead development on a new project.
