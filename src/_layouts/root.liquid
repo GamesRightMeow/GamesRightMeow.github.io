@@ -1,0 +1,82 @@
+---
+show-nav: true
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Games Right Meow - {{ title }}</title>
+
+  <meta name="description" content="{{ settings.site.description }}">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="/style.css" type="text/css" rel="stylesheet">
+  <link href="/fontawesome/all.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@800&display=swap" rel="stylesheet"> 
+
+  
+  {% if env.production %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEVEL0SWTQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XEVEL0SWTQ');
+  </script>
+  {% endif %}
+
+</head>
+
+<body class="text-grm-white bg-grm-black p-x">
+  <div class="flex flex-col h-screen">
+    
+    <!-- header -->
+    {% if show-nav %}
+    <div class="flex flex-col items-center">
+      <!-- logo -->
+      <div class="text-center mt-4">
+        <a href="/"><img src="/media/grm-header.png"/></a>
+      </div>
+
+      <!-- navigation -->
+      <div class="mt-4 w-full md:w-192 bg-grm-white">
+        <nav class="flex justify-center">
+          <div class="flex space-x-2 justify-center text-grm-black text-xl font-semibold lowercase">
+            {% for item in settings.navigation %}
+            <a class="hover:text-grm-red" href="{{ item.url }}">
+              {{ item.name }}
+            </a>
+            {% if not forloop.last %}
+            <div>|</div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </nav>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- main content -->
+    <div class="mb-auto pt-8">
+      {{ content }}
+    </div>
+
+    <!-- footer -->
+    <div class="flex flex-col items-center text-gray-700">
+      <div class="flex flex-col justify-center p-2">
+        <div class="text-end">© {{ "now" | date: "%Y" }} GAMES RIGHT MEOW LLC</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

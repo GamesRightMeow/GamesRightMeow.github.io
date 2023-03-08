@@ -1,22 +1,28 @@
 ---
-layout: main
+layout: root
 ---
 <div class="pt-4 flex space-x-4 justify-center">
-  <div class="w-160 flex flex-col">
-    <h1 class="text-custom-white text-2xl sm:text-3xl leading-9 font-black align-middle uppercase">
-      {{ title }}
+  <div class="w-192 flex flex-col px-8">
+    {% if header %}
+    <h1 class="pb-10 text-grm-white text-5xl leading-10 font-black align-middle uppercase">
+      {{ header }}!
     </h1>
+    {% endif %}
 
     <main class="
-      pt-4
-      prose text-custom-white prose-base text-sm md:text-base
-      prose-headings:text-custom-white prose-strong:text-custom-white 
-      prose-h1:text-3xl
+      pb-8
+      
+      prose text-grm-white prose-base text-sm prose:max-w-full
+      prose-blockquote:m-0
+      prose-strong:font-extrabold
+      prose-headings:text-grm-white prose-headings:uppercase prose-headings:leading-6 prose-headings:mb-8 prose-headings:mt-8
+      prose-h1:text-3xl 
+      prose-strong:text-grm-white 
       prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
       prose-pre:text-base
       prose-tr:divide-x prose-tr:border-gray-500
-      prose-blockquote:text-custom-white prose-blockquote:font-mono
-      prose-a:text-custom-link prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
+      prose-blockquote:text-grm-white prose-blockquote:font-mono
+      prose-a:text-grm-red prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
     ">
       {{ content }}
     </main>
