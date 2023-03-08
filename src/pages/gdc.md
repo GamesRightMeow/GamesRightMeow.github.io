@@ -13,7 +13,4 @@ Thanks for taking a moment to chat with me about your project. It was awesome he
 
 Keep me updated on how it's going, and if there's anything I can do to help support your efforts, don't hesitate to let me know.
 
-__Website:__ [gamesrightmeow.com](/)  
-__Email:__ contact[at]gamesrightmeow.com   
-__Mastodon:__ [@gamesrightmeow@mastodon.gamedev.place]([@gamesrightmeow@mastodon.gamedev.place](https://mastodon.gamedev.place/@gamesrightmeow))  
-__Twitter:__ [@gamesrightmeow](https://twitter.com/GamesRightMeow)  
+{% render "big-button" label: "get in touch", url: "/contact" %}

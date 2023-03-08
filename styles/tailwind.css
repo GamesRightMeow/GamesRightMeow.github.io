@@ -5,3 +5,7 @@
 .random-table td:nth-child(1) {
   width: 15px;
 }
+
+.prose {
+  max-width: max-content;
+}

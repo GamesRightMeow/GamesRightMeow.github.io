@@ -27,8 +27,4 @@ I can provide a variety of game-related services that can help bring new project
 
 [Carrie Ray-Hill](https://www.linkedin.com/in/carrie-ray-hill-70519a24), Senior Director of Digital Learning at iCivics Inc.
 
-# let's talk
-
-__Email:__ contact[at]gamesrightmeow.com   
-__Mastodon:__ [@gamesrightmeow@mastodon.gamedev.place]([@gamesrightmeow@mastodon.gamedev.place](https://mastodon.gamedev.place/@gamesrightmeow))  
-__Twitter:__ [@gamesrightmeow](https://twitter.com/GamesRightMeow)  
+{% render "big-button" label: "let's talk", url: "/contact" %}

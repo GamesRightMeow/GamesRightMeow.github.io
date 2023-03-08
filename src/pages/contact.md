@@ -1,0 +1,11 @@
+---
+title: Contact
+header: let's talk
+tags: page
+permalink: /contact/
+layout: page
+---
+
+__Email:__ contact[at]gamesrightmeow.com   
+__Mastodon:__ [@gamesrightmeow@mastodon.gamedev.place]([@gamesrightmeow@mastodon.gamedev.place](https://mastodon.gamedev.place/@gamesrightmeow))  
+__Twitter:__ [@gamesrightmeow](https://twitter.com/GamesRightMeow)  
