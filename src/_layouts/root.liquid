@@ -1,5 +1,6 @@
 ---
 show-nav: true
+no-index: false
 ---
 <!doctype html>
 <html lang="en">
@@ -11,7 +12,11 @@ show-nav: true
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+  {% if no-index %}
+  <meta name="robots" content="noindex, nofollow" />
+  {% endif %}
+
   <link href="/style.css" type="text/css" rel="stylesheet">
   <link href="/fontawesome/all.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
