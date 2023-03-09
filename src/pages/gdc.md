@@ -13,6 +13,7 @@ Thanks for taking a moment to chat with me about your project. It was awesome he
 
 If you'd like to meetup and talk some more at GDC, please schedule some time using the calendar below.
 
+<!-- adapted from: https://benjamin-g.medium.com/a-better-calendly-embed-d8aabaa421e7 -->
 <div class="flex justify-center">
   <iframe src="https://calendly.com/gamesrightmeow/gdc?hide_event_type_details=1&background_color=101419&text_color=d1d5db&primary_color=f87171" height="600" width="350" scrolling="no" frameborder="0"></iframe>
 </div>
