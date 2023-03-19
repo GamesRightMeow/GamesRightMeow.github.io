@@ -12,7 +12,7 @@ Hi there 👋 It was nice to meet you at GDC 2023!
 
 Thanks for taking a moment to chat with me about your project. It was awesome hearing about your vision and all the hard work you've put into making it a reality. 
 
-If you'd to talk some more __this week at GDC__, please schedule some time using [Calendly](https://calendly.com/gamesrightmeow/gdc?back=0&month=2023-03).
+If you'd like to talk more __this week at GDC__, please schedule some time using [Calendly](https://calendly.com/gamesrightmeow/gdc?back=0&month=2023-03).
 
 <!-- adapted from: https://benjamin-g.medium.com/a-better-calendly-embed-d8aabaa421e7 -->
 <!-- <div class="flex justify-center">
