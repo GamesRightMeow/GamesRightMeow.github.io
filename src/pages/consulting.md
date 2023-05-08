@@ -1,6 +1,6 @@
 ---
 title: Consulting
-header: let's make games together
+header: let's make games together!
 tags: page
 permalink: /consulting/
 layout: page
