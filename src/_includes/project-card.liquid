@@ -1,0 +1,10 @@
+<div onclick="window.open('{{ project.url }}', '_self')" class="flex flex-col overflow-hidden hover:cursor-pointer bg-grm-white hover:bg-grm-white rounded-lg group">
+
+  <!-- image -->
+  <img class="m-0 p-0 aspect-video object-cover opacity-100 group-hover:opacity-50" src="{{ project.data.cover }}">
+  
+  <!-- info -->
+  <div class="flex p-2 pl-3 gap-3 items-center justify-center">
+    <div class="text-base font-bold text-grm-black group-hover:text-grm-red">{{project.data.title}}</div>
+  </div>
+</div>

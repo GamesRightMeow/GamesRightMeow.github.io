@@ -18,6 +18,12 @@ I provide a variety of game-related services that help bring new projects to lif
 * Cleanup a tech debt backlog.
 * ...and more!
 
+# featured client projects
+
+{% include "project-list" collection: collections.featured-project %}
+
+[See all projects](/projects)
+
 # testimonials
 > Alex helped out with our mobile game Race The Sun:Challenge Edition, and was basically productive on the project on day one. He took every task I threw at him and figured it out independently; he's consistently delivered high quality work, on schedule; and he's an awesome communicator. Highly recommend hiring him!
 
@@ -31,4 +37,4 @@ I provide a variety of game-related services that help bring new projects to lif
 
 [Carrie Ray-Hill](https://www.linkedin.com/in/carrie-ray-hill-70519a24), Senior Director of Digital Learning at [iCivics Inc](https://www.icivics.org/).
 
-{% render "big-button" label: "let's talk", url: "/contact" %}
+{% include "big-button" label: "let's talk", url: "/contact" %}
