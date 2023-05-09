@@ -5,6 +5,7 @@
   "navigation": [
     { "name": "home", "url": "/" },
     { "name": "consulting", "url": "/consulting" },
+    { "name": "projects", "url": "/projects" },
     { "name": "games", "url": "https://gamesrightmeow.itch.io" },
   ],
 }
