@@ -1,6 +1,6 @@
 ---
 title: Contact
-header: let's talk
+header: let's talk!
 tags: page
 permalink: /contact/
 layout: page

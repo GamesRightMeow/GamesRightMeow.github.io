@@ -1,0 +1,8 @@
+<div class="flex flex-col">
+  <!-- TODO: when there's more than 2 projects, change this to 3 columns -->
+  <div class="grid grid-cols-1 md:grid-cols-2 w-full gap-4">
+  {%- for project in collection -%}
+    {% render "project-card" project: project %}
+  {%- endfor -%}
+  </div>
+</div>
