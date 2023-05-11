@@ -1,0 +1,8 @@
+<ul>  
+  {% for article in collections.recentlyPlanted limit:count %}
+  <li>
+    <a href="{{article.url}}">{{ article.data.title }}</a>
+    ({{ article.data.planted | timeSince }})
+  </li>
+  {% endfor %}
+</ul>

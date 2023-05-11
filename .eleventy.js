@@ -13,19 +13,34 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
-  eleventyConfig.addWatchTarget('./_tmp/style.css')
-  // FIXME: convert pngs to jpgs
-  eleventyConfig.addPassthroughCopy('./src/projects/**/*.png')
-  eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg')
-  eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif')
-  eleventyConfig.addWatchTarget('./src/projects/**/*')
+  eleventyConfig.addWatchTarget('./_tmp/style.css');
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.png');
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg');
+  eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif');
+  eleventyConfig.addWatchTarget('./src/projects/**/*');
   
-  eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
-  eleventyConfig.addPassthroughCopy({ './src/media/': './media/' })
-  eleventyConfig.addPassthroughCopy({ './src/fontawesome/': './fontawesome/' })
-  eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' })
+  eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' });
+  eleventyConfig.addPassthroughCopy({ './src/media/': './media/' });
+  eleventyConfig.addPassthroughCopy({ './src/fontawesome/': './fontawesome/' });
+  eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' });
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+
+  eleventyConfig.addLiquidFilter("prettyStatus", function(status) {
+    switch (status) {
+      default:
+      case "seedling":
+        return "🌱 <i>Seedling</i>";
+      case "budding":
+        return "🌿 <i>Budding</i>";
+      case "evergreen":
+        return "🌳 <i>Evergreen</i>";
+    }
+  });
+
+  eleventyConfig.addLiquidFilter("timeSince", function(utc) {
+    return moment.utc(utc).fromNow();   
+  });
 
   eleventyConfig.addLiquidFilter("formatDate", function(utc, format) {
     return moment.utc(utc).format(format);
@@ -33,6 +48,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidFilter("length", function(array) {
     return array.length
+  });
+
+  eleventyConfig.addCollection("recentlyTended", function(collectionApi) {
+    return collectionApi.getFilteredByTag("garden").sort(function(a, b) {
+      return b.data.tended - a.data.tended;
+    });
+  });
+
+  eleventyConfig.addCollection("recentlyPlanted", function(collectionApi) {
+    return collectionApi.getFilteredByTag("garden").sort(function(a, b) {
+      return b.data.planted - a.data.planted;
+    });
   });
 
   return {

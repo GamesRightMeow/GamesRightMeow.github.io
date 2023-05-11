@@ -4,8 +4,9 @@
   },
   "navigation": [
     { "name": "home", "url": "/" },
+    { "name": "garden", "url": "/garden" },
     { "name": "consulting", "url": "/consulting" },
     { "name": "projects", "url": "/projects" },
-    { "name": "games", "url": "https://gamesrightmeow.itch.io" },
+    { "name": "store", "url": "https://gamesrightmeow.itch.io" },
   ],
 }
