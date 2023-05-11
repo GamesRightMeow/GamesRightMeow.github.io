@@ -53,16 +53,17 @@ no-index: false
       </div>
 
       <!-- navigation -->
-      <div class="mt-4 w-full md:w-192 bg-grm-white">
+      <div class="mt-4 w-full md:w-192">
         <nav class="flex justify-center">
-          <div class="flex space-x-2 justify-center text-grm-black text-xl font-semibold lowercase">
+          <div class="flex flex-wrap justify-center min-w-full">
             {% for item in settings.navigation %}
-            <a class="hover:text-grm-red" href="{{ item.url }}">
+            <a class="px-4 hover:text-grm-red 
+              grow
+              bg-grm-white border border-dashed border-grm-black
+              hover:bg-gray-800
+              text-center text-grm-black text-2xl font-semibold lowercase" href="{{ item.url }}">
               {{ item.name }}
             </a>
-            {% if not forloop.last %}
-            <div>|</div>
-            {% endif %}
             {% endfor %}
           </div>
         </nav>
