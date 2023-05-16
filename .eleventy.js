@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addLiquidFilter("prettyStatus", function(status) {
-    switch (status) {
+    switch (status.toLowerCase()) {
       default:
       case "seedling":
         return "🌱 <i>Seedling</i>";
@@ -35,6 +35,18 @@ module.exports = function (eleventyConfig) {
         return "🌿 <i>Budding</i>";
       case "evergreen":
         return "🌳 <i>Evergreen</i>";
+    }
+  });
+
+  eleventyConfig.addLiquidFilter("prettyStatusIcon", function(status) {
+    switch (status.toLowerCase()) {
+      default:
+      case "seedling":
+        return "🌱";
+      case "budding":
+        return "🌿";
+      case "evergreen":
+        return "🌳";
     }
   });
 
