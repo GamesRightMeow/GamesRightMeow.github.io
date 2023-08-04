@@ -1,3 +1,6 @@
 {
-    "printtimestamp.localtime": false
+    "printtimestamp.localtime": false,
+    "cSpell.words": [
+        "gameplay"
+    ]
 }
