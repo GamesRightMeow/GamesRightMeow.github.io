@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.png')
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg')
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif')
+  eleventyConfig.addPassthroughCopy('./src/playdate.json')
+  eleventyConfig.addPassthroughCopy('./src/playdate-update.js')
   eleventyConfig.addWatchTarget('./src/projects/**/*')
   
   eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
