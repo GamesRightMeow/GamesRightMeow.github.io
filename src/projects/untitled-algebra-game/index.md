@@ -4,7 +4,6 @@ header: untitled algebra game
 tags: 
     - page
     - project
-    - featured-project
 layout: page
 cover: /projects/untitled-algebra-game/screenshot2.png
 ---
