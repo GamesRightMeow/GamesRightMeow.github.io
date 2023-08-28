@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg');
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif');
   eleventyConfig.addWatchTarget('./src/projects/**/*');
+  eleventyConfig.addWatchTarget('./src/garden/**/*');
   
   eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' });
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' });
