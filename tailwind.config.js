@@ -33,6 +33,7 @@ module.exports = {
         'sans-serif',
       ],
     },
+      
     fontSize: {
       'xs': '.75rem',
       'sm': '.875rem',
@@ -59,13 +60,7 @@ module.exports = {
         'grm-white': '#D1D5DB',
         'grm-red': '#F87171',
         'grm-red-hover': '#EF4444',
-
-        'custom-1': '#D1D5DB',
-        'custom-2': '#2e3440',
-
-        'custom-3': '#6786E8',
-        'custom-4': '#998796',
-        'custom-5': '#241519',
+        'grm-white-bold': '#E8EBEF',
       }
     }
   },
