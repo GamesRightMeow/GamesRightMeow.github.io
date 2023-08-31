@@ -29,3 +29,6 @@ I responsible for developing an obstacle avoidance game for the campaign in coll
 ![Screenshot 2](/projects/what-the-fanta/Screenshot2.png)
 ![Screenshot 3](/projects/what-the-fanta/Screenshot3.png)
 ![Screenshot 4](/projects/what-the-fanta/Screenshot4.png)
+
+<!-- FIXME: add video -->
+<!-- https://youtu.be/iZ9NZZuzNJ0 -->
