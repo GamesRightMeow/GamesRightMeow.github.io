@@ -4,7 +4,7 @@ tags: garden
 layout: garden
 status: seedling
 planted: 2023-05-16 16:50:59
-tended: 2023-08-28 17:50:04
+tended: 2023-09-13 21:38:37
 ---
 
 I've picked up an odd assortment of knowledge for squeezing the most performance out of games. I very rarely work on the newest, most capable hardware so I've spent a lot of time finding ways to accomplish the ambitious goals of designers and artists.
@@ -87,11 +87,7 @@ void Update()
 ## Leverage data locality
 [This article on data locality and the impact of cache misses](https://gameprogrammingpatterns.com/data-locality.html), but essentially: putting things next to each other in memory is going to make your CPU work less hard.
 
-Arrays are faster than Lists.
-
-How do you apply this?
-
-<!-- FIXME: elaborate -->
+<!-- TODO: practical examples -->
 
 ## Use fewer shaders
 Simply accessing Renderer.material will assign a new instance of the material. If assigning shader properties, use [MaterialPropertyBlocks](https://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html) instead.
@@ -99,8 +95,6 @@ Simply accessing Renderer.material will assign a new instance of the material. I
 Each shader is another set of draw calls. And if you don't have GPU instancing enabled, each instance is also drawn separated instead of being combined into a batch.
 
 ## Use integer ids
-There’s a few instances where Unity allows integer and string ids in their API. The string APIs are often used by they are much less performant than their int counterparts, such as: 
+There's a few instances where Unity allows integer and string ids in their API. The string APIs are often used by they are much less performant than their int counterparts, such as: 
 - Global shader properties or material properties [Shader.PropertyToId](https://docs.unity3d.com/ScriptReference/Shader.PropertyToID.html)
 - Animator parameters [Animator.StringToHash](https://docs.unity3d.com/ScriptReference/Animator.StringToHash.html)
-
-<!-- FIXME do and dont -->

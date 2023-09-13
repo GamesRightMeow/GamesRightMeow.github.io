@@ -2,7 +2,7 @@
 title: Analyzing performance of Unity games
 tags: garden
 layout: garden
-status: budding
+status: seedling
 planted: 2023-05-16 16:50:59
 tended: 2023-05-16 19:55:50
 ---
@@ -35,32 +35,11 @@ More time spent in `BehaviorUpdate` usually means I'll be poking around in scrip
 
 By default, Unity gives you a very shallow view into your game, so at this point I usually flip to the snapshot with deep profiling enabled.
 
+<!-- TODO: image of profiler with deep profiling enabled -->
 <!-- ![Image of deep profiler timeline]() -->
 
 Its important to note that deep profiling looks at _everything_ and will further degrade the performance of your game. Don't concern yourself with the exact milliseconds but rather the relative amount of time a functions takes in respect to the total frame time.
 
-# Analyzing results
-
-<!-- 
-- deep profiling
-- custom markers
-- analyzing optimizations with the memory profiler
-- [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html)
-- [Unity Frame Debugger](https://docs.unity3d.com/Manual/FrameDebugger.html)
-- [Unity Profiler Analyzer](https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@0.4/manual/profiler-analyzer-window.html)
-- [Unity Memory Profiler](https://docs.unity3d.com/Packages/com.unity.memoryprofiler@1.0/manual/index.html)
-
-
-- [Unity Docs: Common Profiler Markers](https://docs.unity.cn/Manual/profiler-markers.html)
-- [Unity Docs: Performance Best Practices](https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity.html)
-- [Unity Blog: Tales from Optimization Trenches](https://blogs.unity3d.com/2019/11/14/tales-from-the-optimization-trenches/)
-- [Unity Blog: Scripting Optimizations](https://unity.com/how-to/advanced-programming-and-code-architecture?_ga=2.44000994.670872801.1603824943-1950255191.1583262306)
-- [Unity Blog: Smart Game Development Pipeline](https://unity.com/how-to/set-smart-game-development-pipeline)
-- [Unity Learn: Fixing Performance Problems](https://learn.unity.com/tutorial/fixing-performance-problems-2019-3?uv=2019.3#5e85bbb0edbc2a08897d4839)
-- [Unity Learn: UI Optimization](https://create.unity3d.com/Unity-UI-optimization-tips)
-- [Fix your Unity Timestep!](https://johnaustin.io/articles/2019/fix-your-unity-timestep)
-- [Unity Job System](http://blog.s-schoener.com/2019-04-26-unity-job-zoo/)
-- [Job System Tutorial](https://www.raywenderlich.com/7880445-unity-job-system-and-burst-compiler-getting-started)
-- [Garbage Collection Tips](https://danielilett.com/2019-08-05-unity-tips-1-garbage-collection/)
-- [GameDev Guru: Common optimizations](https://thegamedev.guru/unity-performance-checklist-pro/)
-- [Your audio settings are killing your game!](https://blog.theknightsofunity.com/wrong-import-settings-killing-unity-game-part-2/) -->
+<!-- TODO: custom markers -->
+<!-- TODO: using the cpu profiler -->
+<!-- TODO: comparing results -->
