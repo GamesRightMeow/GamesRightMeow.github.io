@@ -23,12 +23,11 @@ I responsible for developing an obstacle avoidance game for the campaign in coll
 * Tuned the difficulty to create a challenging, yet accessible experience.
 
 # Media
-![Landing page](/projects/what-the-fanta/landing.png)
-![Sweepstakes entry](/projects/what-the-fanta/sweeps.png)
-![Screenshot 1](/projects/what-the-fanta/Screenshot1.png)
-![Screenshot 2](/projects/what-the-fanta/Screenshot2.png)
-![Screenshot 3](/projects/what-the-fanta/Screenshot3.png)
-![Screenshot 4](/projects/what-the-fanta/Screenshot4.png)
 
-<!-- FIXME: add video -->
-<!-- https://youtu.be/iZ9NZZuzNJ0 -->
+{% include "youtube" url: "https://www.youtube.com/embed/iZ9NZZuzNJ0?si=PRoLkBkXACw9GECG" %}
+{% include "image" url: "/projects/what-the-fanta/landing.png" alt: "Landing page" %}
+{% include "image" url: "/projects/what-the-fanta/sweeps.png" alt: "Sweepstakes entry" %}
+{% include "image" url: "/projects/what-the-fanta/Screenshot1.png" alt: "Screenshot 1" %}
+{% include "image" url: "/projects/what-the-fanta/Screenshot2.png" alt: "Screenshot 2" %}
+{% include "image" url: "/projects/what-the-fanta/Screenshot3.png" alt: "Screenshot 3" %}
+{% include "image" url: "/projects/what-the-fanta/Screenshot4.png" alt: "Screenshot 4" %}

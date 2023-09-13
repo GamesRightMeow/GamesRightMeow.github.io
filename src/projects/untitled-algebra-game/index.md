@@ -22,7 +22,7 @@ As the project's lead engineer, I was responsible for all engineering tasks; fro
 * Created a comprehensive handoff document to allow Filament to easily resume the project at a later date.
 
 # Media
-![Metaball shader](/projects/untitled-algebra-game/sag-metaball-shader.gif)
-![Metaball shader under the hood](/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.gif)
-![Dialogue](/projects/untitled-algebra-game/screenshot1.png)
-![Cells](/projects/untitled-algebra-game/screenshot2.png)
+{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader.gif" alt: "Metaball shader" %}
+{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.gif" alt: "Metaball shader under the hood" %}
+{% include "image" url: "/projects/untitled-algebra-game/screenshot1.png" alt: "Dialogue" %}
+{% include "image" url: "/projects/untitled-algebra-game/screenshot2.png" alt: "Cells" %}

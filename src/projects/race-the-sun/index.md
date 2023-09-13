@@ -23,7 +23,7 @@ I joined the team well after the game's initial launch, so my responsibilities w
 * Provided consultation on setting up an automated build pipeline.
 
 # Media
-![Feature graphic](/projects/race-the-sun/TVBanner.png)
-![Screenshot 1](/projects/race-the-sun/Screenshot01.png)
-![Screenshot 2](/projects/race-the-sun/Screenshot03.png)
-![Screenshot 3](/projects/race-the-sun/Screenshot04.png)
+{% include "image" url: "/projects/race-the-sun/TVBanner.png" alt: "Feature graphic" %}
+{% include "image" url: "/projects/race-the-sun/Screenshot01.png" alt: "Screenshot 1" %}
+{% include "image" url: "/projects/race-the-sun/Screenshot03.png" alt: "Screenshot 2" %}
+{% include "image" url: "/projects/race-the-sun/Screenshot04.png" alt: "Screenshot 3" %}
