@@ -1,0 +1,8 @@
+<ul>  
+  {% for article in collections.recentlyTended limit:count %}
+  <li>
+    <a href="{{article.url}}">{{ article.data.status | prettyStatusIcon }} {{ article.data.title }}</a>
+    ({{ article.data.tended | timeSince }})
+  </li>
+  {% endfor %}
+</ul>

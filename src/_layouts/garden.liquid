@@ -1,0 +1,46 @@
+---
+layout: root
+---
+<div class="pt-4 flex space-x-4 justify-center">
+  <div class="w-192 flex flex-col px-8">
+    
+    <h1 class="pb-10 text-grm-white text-5xl leading-10 font-black align-middle uppercase">
+      {{ title }}
+    </h1>
+    <div class="flex text-sm -mt-10 mb-10 flex-col sm:flex-row sm:gap-4">
+      <div>{{ status | prettyStatus }}</div>
+      <div><i>Planted {{ planted | timeSince }}</i></div>
+      <div><i>Last tended {{ tended | timeSince }}</i></div>
+    </div>
+
+    <main class="
+      pb-8
+      
+      prose text-grm-white prose-base text-sm prose:max-w-full
+      prose-blockquote:m-0
+      prose-strong:font-extrabold
+      prose-headings:text-grm-white prose-headings:uppercase prose-headings:leading-6 prose-headings:mb-4 prose-headings:mt-8
+      prose-h1:text-3xl 
+      prose-strong:text-grm-white 
+      prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
+      prose-pre:text-base prose-pre:leading-4
+      prose-tr:divide-x prose-tr:border-gray-500
+      prose-blockquote:text-grm-white prose-blockquote:font-mono
+      prose-a:text-grm-red prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
+      marker:text-grm-white
+      prose-ul:mt-0 prose-li:my-0
+    ">
+      {{ content }}
+    </main>
+    
+    <br/>
+
+    <div class="text-sm text-center">
+      <i>This is a digital garden, not a blog</i>
+      🌻
+      <i><a class="text-grm-red font-bold no-underline a:bg-gray-800" href="/garden/">Learn more</a>
+      </i>
+    </div>
+  </div>
+</div>
+

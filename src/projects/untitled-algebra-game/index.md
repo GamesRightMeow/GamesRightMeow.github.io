@@ -16,7 +16,7 @@ The goal of the project was to help students visualize and perform operations on
 As the project's lead engineer, I was responsible for all engineering tasks; from planning to execution. I worked closely with Filament's design and art team to make sure expectations were aligned with project constraints (hardware, timeline, etc).
   
 # Key contributions
-* Created a [metaball](https://en.wikipedia.org/wiki/Metaballs) shader with Shader Graph to achieve a cell-like visual effect.
+* Created a [metaball](https://en.wikipedia.org/wiki/Metaballs) shader with Shader Graph to achieve a cell-like visual effect. For a deeper dive on how I implemented metaballs, check out [this article in the garden](/garden/metaballs).
 * Wrote a mathematical expression parser.
 * Developed a system for visualizing exponents as cells.
 * Created a comprehensive handoff document to allow Filament to easily resume the project at a later date.

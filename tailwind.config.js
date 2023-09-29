@@ -29,7 +29,7 @@ module.exports = {
         'sans-serif',
       ],
       mono: [
-        'Roboto Slab',
+        'Roboto Mono',
         'sans-serif',
       ],
     },
