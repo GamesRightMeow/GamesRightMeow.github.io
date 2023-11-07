@@ -1,0 +1,14 @@
+---
+layout: root
+---
+
+<h1>{{ title }} ({{ collections[displayCollection] | size }}) </h1>
+
+{{ content }}
+
+<ul>
+{% assign pages = collections[displayCollection] | sort: "data.title" %}
+{%- for page in pages -%}
+  <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+{%- endfor -%}
+</ul>

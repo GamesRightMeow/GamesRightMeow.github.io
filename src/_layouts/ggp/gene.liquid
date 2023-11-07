@@ -1,0 +1,18 @@
+---
+layout: root
+tags: [ content, gene ]
+---
+
+{% render "header" title: title, planted: page.planted, tended: page.tended %}
+
+{{ content }}
+
+<h2>Games with this gene</h2>
+<ul>
+  {% assign games = collections.game | sort: "data.title" %}
+  {% for game in games %}
+    {% if game.data.genes contains page.fileSlug %}
+      <li><a href="{{ game.url }}">{{ game.data.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
