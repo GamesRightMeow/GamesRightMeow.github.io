@@ -14,7 +14,8 @@ _What the Fanta_ was a marketing campaign for [The Coca-Cola Company](https://ww
 <!-- https://web.archive.org/web/20230828161407/https://halloween.fanta.com/ -->
 <!-- TODO: host game when site is taken down -->
 [Marketing campaign on Fanta.com](https://www.fanta.com)  
-[Play game](https://halloween.fanta.com/game)  
+[Play game](https://halloween.fanta.com/game)
+[Flavor reveal](https://www.tiktok.com/@the.navarose/video/7294705488397159723)
 
 # My responsibilities
 I responsible for developing an obstacle avoidance game for the campaign in collaboration with [IfThen](https://www.ifthen.com/). My focus was on engineering and game design.
