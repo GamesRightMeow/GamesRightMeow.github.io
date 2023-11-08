@@ -1,6 +1,7 @@
 ---
 title: Game Genome Project
-layout: page
+layout: genome-project/note
+status: seedling
 ---
 
 The _Game Genome Project_ a specialized a [digital garden](notes/digital-garden) with [the mission of identifying and cataloging "genes"](notes/the-project) in video games.

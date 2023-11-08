@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: genome-project/game
 title: Against the Storm
 genes:
 - top-down

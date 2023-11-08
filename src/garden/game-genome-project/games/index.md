@@ -1,6 +1,6 @@
 ---
 title: All Games
-layout: list
-displayCollection: game
+layout: genome-project/list
+displayCollection: genome-project-game
 ---
 

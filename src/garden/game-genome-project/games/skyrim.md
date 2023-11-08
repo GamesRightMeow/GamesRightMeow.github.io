@@ -1,6 +1,6 @@
 ---
 title: Skyrim
-layout: game
+layout: genome-project/game
 genes:
 - first-person
 - third-person

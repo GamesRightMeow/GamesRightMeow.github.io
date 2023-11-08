@@ -1,5 +1,6 @@
 ---
 title: All Notes
-layout: list
-displayCollection: note
+layout: genome-project/list
+displayCollection: genome-project-note
+status: seedling
 ---

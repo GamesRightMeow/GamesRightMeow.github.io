@@ -1,17 +1,16 @@
 ---
-layout: root
-tags: [ content, game ]
+layout: garden
+tags: [ genome-project, genome-project-game ]
 ---
-
-{% render "header" title: title, planted: page.planted, tended: page.tended %}
 
 {{ content }}
 
 <h2>Genes</h2>
-<ul>
+FIXME: copy over findPage from local repo
+{% comment %} <ul>
   {% assign genes = genes %}
   {% for id in genes %}
     {% assign gene = id | findPage: collections.gene  %}
     <li><a href="{{ gene.url }}">{{ gene.data.title }}</a></li>
   {% endfor %}
-</ul>
+</ul> {% endcomment %}

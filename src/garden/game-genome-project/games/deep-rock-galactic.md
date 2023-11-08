@@ -1,6 +1,6 @@
 ---
 title: Deep Rock Galactic
-layout: game
+layout: genome-project/game
 genes:
 - first-person
 - procgen

@@ -1,8 +1,9 @@
 ---
 title: Project mission
-layout: note
+layout: genome-project/note
 planted: 2023-11-05 15:47:41
 tended: 2023-11-07T00:07:17Z
+status: seedling
 ---
 
 The Game Genome Project (a riff off of [Pandora's "Music Genome Project"](https://www.pandora.com/about/mgp)) was born out of my frustration with trying to find games I like.

@@ -1,6 +1,6 @@
 ---
 title: Mosa Lina
-layout: game
+layout: genome-project/game
 genes:
 - side-view
 - puzzle-solving

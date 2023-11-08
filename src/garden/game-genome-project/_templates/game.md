@@ -1,6 +1,6 @@
 ---
 title: New Game
-layout: game
+layout: genome-project/game
 genes:
 - side-view
 - 2d
