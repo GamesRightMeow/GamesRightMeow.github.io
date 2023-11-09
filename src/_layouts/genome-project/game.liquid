@@ -6,11 +6,9 @@ tags: [ genome-project, genome-project-game ]
 {{ content }}
 
 <h2>Genes</h2>
-FIXME: copy over findPage from local repo
-{% comment %} <ul>
-  {% assign genes = genes %}
+<ul>
   {% for id in genes %}
-    {% assign gene = id | findPage: collections.gene  %}
+    {% assign gene = id | findPage: collections.genome-project-gene  %}
     <li><a href="{{ gene.url }}">{{ gene.data.title }}</a></li>
   {% endfor %}
-</ul> {% endcomment %}
+</ul>

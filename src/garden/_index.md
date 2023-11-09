@@ -20,6 +20,9 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
   - 🌿 Budding - articles I've cleaned up and clarified
   - 🌳 Evergreen - articles that are reasonably complete (though I still tend these over time).
 
+## Featured
+- [Game Genome Project](/garden/game-genome-project)
+
 ## Recently planted
 {% include "recently-planted" count: 5 %}
 

@@ -2,5 +2,6 @@
     "printtimestamp.localtime": false,
     "cSpell.words": [
         "gameplay"
-    ]
+    ],
+    "todo-tree.tree.scanMode": "workspace only"
 }

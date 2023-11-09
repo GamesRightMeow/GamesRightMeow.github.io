@@ -35,6 +35,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
+  eleventyConfig.addFilter("findPage", function find(slug, collection) {
+    let result = collection.find(page => page.fileSlug === slug);
+    if (result == null) {
+      console.error("Page not found!");
+    }
+    return result;
+  });
+
   eleventyConfig.addLiquidFilter("prettyStatus", function (status) {
     if (status == null) {
       // no status = seedling
@@ -53,6 +61,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addLiquidFilter("prettyStatusIcon", function(status) {
+    if (status == null) {
+      // no status = seedling
+      return "🌱";
+    }
+
     switch (status.toLowerCase()) {
       default:
       case "seedling":
