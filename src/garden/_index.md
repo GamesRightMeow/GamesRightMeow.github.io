@@ -20,13 +20,14 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
   - 🌳 Evergreen - articles that are reasonably complete (though I still tend these over time).
 
 ## Featured
-- [All Posts](/garden/all-posts)
-- [Game Genome Project](/garden/game-genome-project)
+- [All Posts](all-pages)
+- [How this garden is organized](organizing-digital-gardens)
+- [Game Genome Project](game-genome-project)
 
 ## Recently planted
 {% include "recently-planted" count: 5 %}
 
 ## Recently tended
-{% include "recently-tended" count: 5 %}
+{% include "recently-tended" count: 5, tag: "garden" %}
 
 <!-- TODO: a list of evergreen articles once I have a nice backlog -->

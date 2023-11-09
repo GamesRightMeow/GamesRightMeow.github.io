@@ -12,6 +12,8 @@
 - `genome-project-note` = all notes in the Game Genome Project
 - `genome-project-gene` = all genes in the Game Genome Project
 - `genome-project-game` = all games in the Game Genome Project
+- `hide-recently-tended` = hides post from recently planted widgets
+- `hide-recently-planted` = hides post from recently tended widgets
 
 # Dates
 `tended` and `planted` dates must be in UTC format `YYYY-MM-DDThh:mm:ssZZZ`
