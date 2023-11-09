@@ -1,6 +1,5 @@
 ---
 title: Metaballs
-tags: garden
 layout: garden
 status: seedling
 planted: 2023-05-11 22:16:51

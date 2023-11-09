@@ -1,7 +1,6 @@
 ---
 title: Home
 header: HI, THERE!
-tags: page
 layout: page
 ---
 

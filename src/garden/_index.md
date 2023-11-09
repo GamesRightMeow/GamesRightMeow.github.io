@@ -1,6 +1,5 @@
 ---
 title: Digital Garden
-tags: garden
 permalink: /garden/
 layout: garden
 status: evergreen
@@ -21,6 +20,7 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
   - 🌳 Evergreen - articles that are reasonably complete (though I still tend these over time).
 
 ## Featured
+- [All Posts](/garden/all-posts)
 - [Game Genome Project](/garden/game-genome-project)
 
 ## Recently planted

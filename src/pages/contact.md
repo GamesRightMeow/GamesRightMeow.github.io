@@ -1,7 +1,6 @@
 ---
 title: Contact
 header: let's talk!
-tags: page
 permalink: /contact/
 layout: page
 ---

@@ -1,6 +1,5 @@
 ---
 title: Minecraft
-tags: genome-project/game
 layout: genome-project/game
 genes:
 - first-person
