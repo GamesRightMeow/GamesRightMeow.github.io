@@ -10,8 +10,8 @@ tags: garden
     </h1>
     <div class="flex text-sm -mt-10 mb-10 flex-col sm:flex-row sm:gap-4">
       <div>{{ status | prettyStatus }}</div>
-      <div><i>Planted {{ planted | timeSince }}</i></div>
-      <div><i>Last tended {{ tended | timeSince }}</i></div>
+      <div><i class="flex gap-1">Planted {% render "time-since" date: planted %}</i></div>
+      <div><i class="flex gap-1">Last tended {% render "time-since" date: tended %}</i></div>
     </div>
 
     <main class="

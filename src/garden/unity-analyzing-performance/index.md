@@ -2,8 +2,8 @@
 title: Analyzing performance of Unity games
 layout: garden
 status: seedling
-planted: 2023-05-16 16:50:59
-tended: 2023-05-16 19:55:50
+planted: 2023-05-16T05:36:20Z
+tended: 2023-05-16T05:36:20Z
 ---
 
 When I dove into optimizing my first Unity game years ago, there were plenty of resources that explained _what_ I should optimize, but nothing really about the _how to identify_ problems. Sure, the obvious first symptom is usually a jittery FPS, but that only clues you into the problem exists. How do you determine the root problem?

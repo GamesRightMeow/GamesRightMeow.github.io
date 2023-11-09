@@ -1,8 +1,8 @@
 ---
 title: Organizing digital gardens
 layout: garden
-planted: 2023-11-08T20:14:42-08:00
-tended: 2023-11-08T20:14:42-08:00
+planted: 2023-11-09T05:38:30Z
+tended: 2023-11-09T05:38:27Z
 ---
 
 <!-- __Plots__ are folders (e.g. [gamesrightmeow.com/garden/game-genome-project](https://gamesrightmeow.com/garden/game-genome-project)) that contain pages that are related in some way as opposed to putting them in the main garden plot (e.g. [gamesrightmeow.com/garden](https://gamesrightmeow.com/garden/)). -->

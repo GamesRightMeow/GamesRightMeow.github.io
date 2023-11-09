@@ -2,8 +2,10 @@
   {% assign pages = collections.recentlyTended | withTag: tag %}
   {% for page in pages limit:count %}
   <li>
-    <a href="{{page.url}}">{{ page.data.status | prettyStatusIcon }} {{ page.data.title }}</a>
-    ({{ page.data.tended | timeSince }})
+    <div class="flex gap-1 m-0">
+      <a href="{{page.url}}" >{{ page.data.status | prettyStatusIcon }} {{ page.data.title }}</a>
+      <div class="flex">({% render "time-since" date: page.data.tended %})</div>
+    </div>
   </li>
   {% endfor %}
 </ul>
