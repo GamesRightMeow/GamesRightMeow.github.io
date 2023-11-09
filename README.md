@@ -16,4 +16,4 @@
 - `hide-recently-planted` = hides post from recently tended widgets
 
 # Dates
-`tended` and `planted` dates must be in UTC format `YYYY-MM-DDThh:mm:ssZZZ`
+`tended` and `planted` dates must be in ISO UTC format `YYYY-MM-DD[T]HH:mm:ss.SSS[Z]`, or `iso` if `Insert Date String (jsynowiec.vscode-insertdatestring)` extension

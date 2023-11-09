@@ -2,8 +2,8 @@
 title: Unity optimization tips
 layout: garden
 status: seedling
-planted: 2023-05-16 16:50:59
-tended: 2023-09-13 21:38:37
+planted: 2023-05-16T05:36:20Z
+tended: 2023-09-13T05:36:20Z
 ---
 
 I've picked up an odd assortment of knowledge for squeezing the most performance out of games. I very rarely work on the newest, most capable hardware so I've spent a lot of time finding ways to accomplish the ambitious goals of designers and artists.

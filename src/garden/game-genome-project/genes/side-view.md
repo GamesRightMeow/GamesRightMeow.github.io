@@ -1,6 +1,6 @@
 ---
 title: perspective/side-view
 layout: genome-project/gene
-planted: 2023-11-05 15:47:41
-tended: 2023-11-05 15:47:41
+planted: 2023-11-05T05:36:20Z
+tended: 2023-11-05T05:36:20Z
 ---

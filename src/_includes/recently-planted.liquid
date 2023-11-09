@@ -1,8 +1,10 @@
 <ul>  
-  {% for article in collections.recentlyPlanted limit:count %}
+  {% for page in collections.recentlyPlanted limit:count %}
   <li>
-    <a href="{{article.url}}">{{ article.data.status | prettyStatusIcon }} {{ article.data.title }}</a>
-    ({{ article.data.planted | timeSince }})
+    <div class="flex gap-1 m-0">
+      <a href="{{page.url}}" >{{ page.data.status | prettyStatusIcon }} {{ page.data.title }}</a>
+      <div class="flex">({% render "time-since" date: page.data.planted %})</div>
+    </div>
   </li>
   {% endfor %}
 </ul>

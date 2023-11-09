@@ -2,8 +2,8 @@
 title: Metaballs
 layout: garden
 status: seedling
-planted: 2023-05-11 22:16:51
-tended: 2023-05-11 22:16:51
+planted: 2023-05-11T05:36:20Z
+tended: 2023-05-11T05:36:20Z
 ---
 
 An early goal in the development of [Untitled Algebra Game](/projects/untitled-algebra-game) was to visualize exponents as cells since [mitosis](https://en.wikipedia.org/wiki/Mitosis) translated well to exponent math.
