@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.ignores.add("**/_templates/");
+  eleventyConfig.ignores.add("**/_notes.md");
 
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 

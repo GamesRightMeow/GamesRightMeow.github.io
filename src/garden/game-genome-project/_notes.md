@@ -1,0 +1,2 @@
+- Open ended session vs linear?  e.g. minecraft vs deeprock?
+- Control player avatar (minecraft) vs control management of group (dwarf fortress) vs abstract (unpacking, puzzle games)
