@@ -1,7 +1,8 @@
 {
     "printtimestamp.localtime": false,
     "cSpell.words": [
-        "gameplay"
+        "gameplay",
+        "permadeath"
     ],
     "todo-tree.tree.scanMode": "workspace only",
     "insertDateString.format": "iso"
