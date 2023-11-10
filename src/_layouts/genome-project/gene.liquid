@@ -5,9 +5,21 @@ tags: [ genome-project, genome-project-gene ]
 
 {{ content }}
 
+{% if related %}
+<h2>Related genes</h2>
+<ul>
+  {% assign genes = collections.genome-project-gene | sort: "data.title" %}
+  {% for gene in genes %}
+    {% if related contains gene.fileSlug %}
+      <li><a href="{{ gene.url }}">{{ gene.data.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
+
 <h2>Games with this gene</h2>
 <ul>
-  {% assign games = collections.game | sort: "data.title" %}
+  {% assign games = collections.genome-project-game | sort: "data.title" %}
   {% for game in games %}
     {% if game.data.genes contains page.fileSlug %}
       <li><a href="{{ game.url }}">{{ game.data.title }}</a></li>
