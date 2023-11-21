@@ -1,5 +1,5 @@
 ---
-title: Organizing digital gardens
+title: Organizing the garden
 layout: garden
 planted: 2023-11-09T05:38:30Z
 tended: 2023-11-09T05:38:27Z
@@ -9,4 +9,4 @@ tended: 2023-11-09T05:38:27Z
 
 __Catalogs__ are pages that contain curated (either by hand or automation) lists of other pages, that are grouped because of a shared theme. For example, the ["All pages" page](/garden/all-pages).
 
-<!-- TODO: thoughts on how to organize gardens once this one grows larger -->
+<!-- TODO: more thoughts on how to organize gardens once this one grows larger -->
