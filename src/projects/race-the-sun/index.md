@@ -1,11 +1,8 @@
 ---
 title: Race the Sun
 header: Race the Sun
-tags: 
-    - page
-    - project
-    - featured-project
-layout: page
+tags: featured-project
+layout: project
 cover: /projects/race-the-sun/TVBanner.png
 ---
 

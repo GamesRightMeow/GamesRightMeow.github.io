@@ -1,6 +1,5 @@
 ---
 title: Digital Garden
-tags: garden
 permalink: /garden/
 layout: garden
 status: evergreen
@@ -19,6 +18,9 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
   - 🌱 Seedling - very rough and early ideas
   - 🌿 Budding - articles I've cleaned up and clarified
   - 🌳 Evergreen - articles that are reasonably complete (though I still tend these over time).
+
+## Featured
+- [All Posts](/garden/all-posts)
 
 ## Recently planted
 {% include "recently-planted" count: 5 %}

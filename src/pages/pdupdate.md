@@ -3,7 +3,6 @@ title: Playdate Updater
 header: Checking for Updates
 show-nav: false
 no-index: true
-tags: page
 permalink: /pdupdate/
 layout: page
 ---

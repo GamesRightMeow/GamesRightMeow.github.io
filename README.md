@@ -4,10 +4,10 @@
 
 # Tag guide
 
-## Required tags
+- `page` = one off web pages (about, consulting, etc)
+- `project` = project pages
+- `featured-project` = projects that are featured on consulting page
+- `garden` = garden posts
 
-One of the following must be used to correctly categorize content:
-
-* `post` = blog posts
-* `page` = static pages
-
+# Dates
+`tended` and `planted` dates must be in UTC format `YYYY-MM-DDThh:mm:ssZZZ`

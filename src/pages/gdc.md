@@ -3,7 +3,6 @@ title: GDC 2023
 header: nice to meet you!
 show-nav: false
 no-index: true
-tags: page
 permalink: /gdc/
 layout: page
 ---
