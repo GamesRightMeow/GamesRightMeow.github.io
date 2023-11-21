@@ -8,10 +8,22 @@ tags: garden
     <h1 class="pb-10 text-grm-white text-5xl leading-10 font-black align-middle uppercase">
       {{ title }}
     </h1>
+
     <div class="flex text-sm -mt-10 mb-10 flex-col sm:flex-row sm:gap-4">
       <div>{{ status | prettyStatus }}</div>
-      <div><i class="flex gap-1">Planted {% render "time-since" date: planted %}</i></div>
-      <div><i class="flex gap-1">Last tended {% render "time-since" date: tended %}</i></div>
+
+      <div class="group cursor-pointer hover:underline">
+        <i class="flex gap-1">Planted {% render "time-since" date: planted %}</i>
+
+        <div class="text-dark dark:text-white shadow-1 dark:shadow-none absolute bottom-full left-1/2 z-20 mb-3 -translate-x-1/2 whitespace-nowrap rounded-[5px] bg-white dark:bg-dark-2 py-1.5 px-3.5 text-sm opacity-10 group-hover:opacity-100">
+          <span class="absolute -bottom-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 bg-white dark:bg-dark-2"></span>
+          {{ planted | formatDate: "MMMM Do YYYY, h:mm:ss a" }}
+        </div>
+      </div>
+
+      <div>
+        <i class="flex gap-1">Last tended {% render "time-since" date: tended %}</i>
+      </div>
     </div>
 
     <main class="
