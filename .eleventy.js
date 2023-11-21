@@ -33,7 +33,20 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
-  eleventyConfig.addLiquidFilter("prettyStatus", function(status) {
+  eleventyConfig.addFilter("findPage", function find(slug, collection) {
+    let result = collection.find(page => page.fileSlug === slug);
+    if (result == null) {
+      console.error("Page not found!");
+    }
+    return result;
+  });
+
+  eleventyConfig.addLiquidFilter("prettyStatus", function (status) {
+    if (status == null) {
+      // no status = seedling
+      return "🌱 <i>Seedling</i>";
+    }
+
     switch (status.toLowerCase()) {
       default:
       case "seedling":
@@ -46,6 +59,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addLiquidFilter("prettyStatusIcon", function(status) {
+    if (status == null) {
+      // no status = seedling
+      return "🌱";
+    }
+
     switch (status.toLowerCase()) {
       default:
       case "seedling":
@@ -69,14 +87,28 @@ module.exports = function (eleventyConfig) {
     return array.length
   });
 
+  eleventyConfig.addLiquidFilter("withTag", function(collection, tag) {
+    return collection.filter((item) => item.data.tags.includes(tag));
+  });
+    
+  eleventyConfig.addLiquidFilter("withoutTag", function(collection, tag) {
+    return collection.filter((item) => !item.data.tags.includes(tag));
+  });
+    
   eleventyConfig.addCollection("recentlyTended", function(collectionApi) {
-    return collectionApi.getFilteredByTag("garden").sort(function(a, b) {
+    return collectionApi.getFilteredByTag("garden")
+    .filter(function(item) {
+      return !item.data.tags.includes("hide-recently-tended")
+    }).sort(function(a, b) {
       return b.data.tended - a.data.tended;
     });
   });
 
   eleventyConfig.addCollection("recentlyPlanted", function(collectionApi) {
-    return collectionApi.getFilteredByTag("garden").sort(function(a, b) {
+    return collectionApi.getFilteredByTag("garden")
+    .filter(function(item) {
+      return !item.data.tags.includes("hide-recently-planted")
+    }).sort(function(a, b) {
       return b.data.planted - a.data.planted;
     });
   });

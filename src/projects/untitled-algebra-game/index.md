@@ -1,10 +1,7 @@
 ---
 title: Untitled Algebra Game
 header: untitled algebra game
-tags: 
-    - page
-    - project
-layout: page
+layout: project
 cover: /projects/untitled-algebra-game/screenshot2.png
 ---
 
