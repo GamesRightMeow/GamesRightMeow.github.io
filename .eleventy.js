@@ -33,7 +33,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
-  eleventyConfig.addLiquidFilter("prettyStatus", function(status) {
+  eleventyConfig.addLiquidFilter("prettyStatus", function (status) {
+    if (status == null) {
+      // no status = seedling
+      return "🌱 <i>Seedling</i>";
+    }
+
     switch (status.toLowerCase()) {
       default:
       case "seedling":
@@ -46,6 +51,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addLiquidFilter("prettyStatusIcon", function(status) {
+    if (status == null) {
+      // no status = seedling
+      return "🌱";
+    }
+
     switch (status.toLowerCase()) {
       default:
       case "seedling":
