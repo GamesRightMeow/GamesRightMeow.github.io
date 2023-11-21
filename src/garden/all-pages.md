@@ -1,6 +1,6 @@
 ---
 title: All Pages
-layout: list
+layout: dynamic-list
 tags: [hide-recently-planted, hide-recently-tended]
 displayCollection: garden
 planted: 2023-11-09T05:24:03Z
