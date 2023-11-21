@@ -1,8 +1,9 @@
 <ul>  
-  {% for article in collections.recentlyTended limit:count %}
+  {% assign pages = collections.recentlyTended | withTag: tag %}
+  {% for page in pages limit:count %}
   <li>
-    <a href="{{article.url}}">{{ article.data.status | prettyStatusIcon }} {{ article.data.title }}</a>
-    ({{ article.data.tended | timeSince }})
+    <a href="{{page.url}}">{{ page.data.status | prettyStatusIcon }} {{ page.data.title }}</a>
+    ({{ page.data.tended | timeSince }})
   </li>
   {% endfor %}
 </ul>
