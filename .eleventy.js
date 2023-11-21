@@ -90,7 +90,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLiquidFilter("withTag", function(collection, tag) {
     return collection.filter((item) => item.data.tags.includes(tag));
   });
-
+    
+  eleventyConfig.addLiquidFilter("withoutTag", function(collection, tag) {
+    return collection.filter((item) => !item.data.tags.includes(tag));
+  });
+    
   eleventyConfig.addCollection("recentlyTended", function(collectionApi) {
     return collectionApi.getFilteredByTag("garden")
     .filter(function(item) {

@@ -1,11 +1,12 @@
 ---
 layout: garden
+tags: list
 ---
 
 {{ content }}
 
 <ul>
-{% assign pages = collections[displayCollection] | sort: "data.title" %}
+{% assign pages = collections.garden | withTag: displayCollection | withoutTag: "list" | sort: "data.title" %}
 {%- for page in pages -%}
   <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
 {%- endfor -%}
