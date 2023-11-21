@@ -4,5 +4,6 @@
         "gameplay"
     ],
     "todo-tree.tree.scanMode": "workspace only",
-    "insertDateString.format": "iso"
+    "insertDateString.format": "iso",
+    "editor.tabSize": 2
 }
