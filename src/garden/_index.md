@@ -4,7 +4,7 @@ permalink: /garden/
 layout: garden
 status: evergreen
 planted: 2023-05-11T5:00:00Z
-tended: 2023-11-09T05:22:22Z
+tended: 2024-05-24T11:45:47Z
 ---
 
 This is a [digital garden](https://maggieappleton.com/garden-history), not a blog. There is no linear history. Articles aren't refined or complete. Content is always evolving. This garden is imperfect by design.
@@ -21,7 +21,7 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
 
 ## Featured
 - [All Posts](all-pages)
-- [How this garden is organized](organizing-digital-gardens)
+- [How this garden is organized](organizing-the-garden)
 
 ## Recently planted
 {% include "recently-planted" count: 5 %}
