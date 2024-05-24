@@ -21,7 +21,7 @@ I provide a variety of game-related services that help bring new projects to lif
 
 {% include "project-list" collection: collections.featured-project %}
 
-[See all projects](/projects)
+[See all client projects](/projects)
 
 # testimonials
 > Alex helped out with our mobile game Race The Sun:Challenge Edition, and was basically productive on the project on day one. He took every task I threw at him and figured it out independently; he's consistently delivered high quality work, on schedule; and he's an awesome communicator. Highly recommend hiring him!

@@ -1,0 +1,33 @@
+---
+# this is intended as a root template for client projects and games since they
+# currently both share the same layout
+layout: root
+---
+<div class="pt-4 flex space-x-4 justify-center">
+  <div class="w-192 flex flex-col px-8">
+    {% if header %}
+    <h1 class="pb-10 text-grm-white text-5xl leading-10 font-black align-middle uppercase">
+      {{ header }}
+    </h1>
+    {% endif %}
+
+    <main class="
+      pb-8
+      
+      prose text-grm-white prose-base text-sm prose:max-w-full
+      prose-blockquote:m-0
+      prose-strong:font-extrabold
+      prose-headings:text-grm-white prose-headings:uppercase prose-headings:leading-6 prose-headings:mb-4 prose-headings:mt-8
+      prose-h1:text-3xl 
+      prose-strong:text-grm-white-bold 
+      prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
+      prose-pre:text-base
+      prose-tr:divide-x prose-tr:border-gray-500
+      prose-blockquote:text-grm-white prose-blockquote:font-mono
+      prose-a:text-grm-red prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
+    ">
+      {{ content }}
+    </main>
+  </div>
+</div>
+

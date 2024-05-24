@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./_tmp/style.css');
   eleventyConfig.addWatchTarget('./src/projects/**/*');
   eleventyConfig.addWatchTarget('./src/garden/**/*');
+  eleventyConfig.addWatchTarget('./src/games/**/*');
   
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.png');
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.jpg');
@@ -23,6 +24,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.png');
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.jpg');
   eleventyConfig.addPassthroughCopy('./src/projects/**/*.gif');
+  eleventyConfig.addPassthroughCopy('./src/games/**/*.png');
+  eleventyConfig.addPassthroughCopy('./src/games/**/*.jpg');
+  eleventyConfig.addPassthroughCopy('./src/games/**/*.gif');
   eleventyConfig.addPassthroughCopy('./src/playdate.json')
   eleventyConfig.addPassthroughCopy('./src/playdate-update.js')
   
