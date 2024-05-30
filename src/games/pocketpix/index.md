@@ -16,7 +16,7 @@ Current features:
 - Use an assortment of tools to create your masterpiece
 
 # Purchase
-<iframe frameborder="0" src="https://itch.io/embed/1664518?dark=true" width="552" height="167"><a href="https://gamesrightmeow.itch.io/pocket-pix">Pocket Pix (Early Access) by GAMES RIGHT MEOW</a></iframe>
+{% include "itchio" url: "https://itch.io/embed/1664518?dark=true" %}
 
 # Media
 {% include "image" url: "/games/pocketpix/earth.gif" alt: "Animated earth spinning gif" %}
