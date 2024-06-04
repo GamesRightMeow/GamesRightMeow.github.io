@@ -19,19 +19,19 @@ However, over the weekend I finally realized it was only occurring in Unreal Eng
 
 # The problem
 
-With that to narrow my search I discovered that it was because Unreal was running animation updates on e-cores on my CPU which was causing them to go out of sync. 
+With that to narrow my search I soon came across [this similar issue someone was having in Fortnite](https://www.reddit.com/r/AMDHelp/comments/xlou5r/im_getting_player_model_flickering_in_unreal/). The entire thread was full of good clues, but [this particular comment](https://www.reddit.com/r/AMDHelp/comments/xlou5r/comment/kj8u32v/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) helpfully summarized the problem as "The stuttering/warping of character models appears to be due to core multithreading desync". The proposed fix was to simply change the CPU affinity for the game.
 
-<!-- TODO: link to posts that led me to conclusion 
+However I wasn't content with not understanding the root issue and why changing the CPU affinity fixed it, so I dove a bit deeper!
 
-https://www.reddit.com/r/AMDHelp/comments/xlou5r/im_getting_player_model_flickering_in_unreal/
-https://www.reddit.com/r/stalker/comments/zv273q/guide_fix_for_microstuttering_cpu_affinity_howto/
--->
+Unreal Engine has [an option to that toggles multithreaded animation updates](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/Optimization/). When enabled, Unreal will run animation updates on a separate thread. The problem lies when the this thread happens to be running on an __efficiency core__. But what the heck is an efficiency core?
+
+Intel processors have two types of cores built into the chip: efficiency cores (or E-cores) and performance cores (P-cores). You can find [much more detailed information about this tech on Intel's site](https://www.intel.com/content/www/us/en/gaming/resources/how-hybrid-design-works.html) but from what I understand: p-cores are good for games and e-cores are bad. Particularly when you run a mulithreaded game across both types of cores, which is where I'm thinking the problem lies.
+
 <!-- 
 What core do I have? Is there an official article about this?
 https://www.reddit.com/r/intel/comments/17u7zdr/intel_fixes_ecores_for_gaming_doesnt_give_12th/
  -->
-
-<!-- TODO: what are e-cores? why are they a problem? -->
+Apprently this is not an issue with newer intel CPUs fix this problem, but I have a 
 
 # The solution
 The fix was simply figuring out which cores were e-cores, then setting the game’s CPU affinity so it’s not allowed to use those cores
