@@ -21,7 +21,11 @@ However, over the weekend I finally realized it was only occurring in Unreal Eng
 
 With that to narrow my search I discovered that it was because Unreal was running animation updates on e-cores on my CPU which was causing them to go out of sync. 
 
-<!-- TODO: link to posts that led me to conclusion -->
+<!-- TODO: link to posts that led me to conclusion 
+
+https://www.reddit.com/r/AMDHelp/comments/xlou5r/im_getting_player_model_flickering_in_unreal/
+https://www.reddit.com/r/stalker/comments/zv273q/guide_fix_for_microstuttering_cpu_affinity_howto/
+-->
 <!-- 
 What core do I have? Is there an official article about this?
 https://www.reddit.com/r/intel/comments/17u7zdr/intel_fixes_ecores_for_gaming_doesnt_give_12th/
@@ -31,4 +35,30 @@ https://www.reddit.com/r/intel/comments/17u7zdr/intel_fixes_ecores_for_gaming_do
 
 # The solution
 The fix was simply figuring out which cores were e-cores, then setting the game’s CPU affinity so it’s not allowed to use those cores
-<!-- TODO: add Playnite script -->
+
+<!-- TODO: cpu bitmask
+https://stackoverflow.com/questions/19187241/change-affinity-of-process-with-windows-script
+ -->
+
+```powershell
+# steam id
+$gameId = "692890"
+# process name, usually with '-Win64-Shipping' appended
+$gameProcessName = "RoboQuest-Win64-Shipping"
+
+# launch game thru steam so overlay works
+$pinfo = New-Object System.Diagnostics.ProcessStartInfo
+$pinfo.FileName = "C:\Program Files (x86)\Steam\steam.exe"
+$pinfo.Arguments = "steam://rungameid/" + $gameId
+$p = New-Object System.Diagnostics.Process
+$p.StartInfo = $pinfo
+$p.Start()
+
+# wait for game to start
+Start-Sleep 5
+
+# get game process and set affinity
+$game = Get-Process -Name $gameProcessName
+$game.ProcessorAffinity=0xF3
+Wait-Process $game.id
+```
