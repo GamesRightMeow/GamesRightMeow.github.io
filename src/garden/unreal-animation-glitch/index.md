@@ -3,7 +3,7 @@ title: Unreal animation glitch
 layout: garden
 status: seedling
 planted: 2024-06-04T14:50:33Z
-tended: 2024-06-04T14:50:33Z
+tended: 2024-06-05T16:50:33Z
 ---
 
 Since ~2021 I've been seeing a weird glitch on animated models in some games. When I first experienced it in [Deep Rock Galactic](https://store.steampowered.com/app/548430/Deep_Rock_Galactic/) - the camera rig would glitch and twitch the camera 90 degrees! <!-- TODO: Do I still have a video clip of this somewhere? -->
