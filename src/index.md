@@ -1,6 +1,6 @@
 ---
 title: Home
-header: HI, THERE!
+header: HI THERE!
 layout: page
 ---
 
