@@ -10,3 +10,4 @@ Alex has over 10 years of experience building games and other interactive media,
 
 When he's not staring at a screen, he enjoys eating delicious food, petting cats, and exploring the great outdoors. Did I mention he also loves food? 🍕
 
+{% include "contact" %}
