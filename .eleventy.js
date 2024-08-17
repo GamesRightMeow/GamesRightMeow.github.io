@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/garden/**/*');
   eleventyConfig.addWatchTarget('./src/games/**/*');
   
+  eleventyConfig.addPassthroughCopy('./src/projects/what-the-fanta/play/**/*');
+
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.png');
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.jpg');
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.gif');
