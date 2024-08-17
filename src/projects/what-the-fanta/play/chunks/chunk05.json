@@ -1,0 +1,32 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 375,
+  "height": 667,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "entities",
+      "_eid": "40451126",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 48,
+      "gridCellsY": 85,
+      "entities": [
+        {"name": "gravestone_large", "id": 0, "_eid": "57863829", "x": 144, "y": 544, "flippedX": false},
+        {"name": "gravestone_large", "id": 1, "_eid": "57863829", "x": 312, "y": 320, "flippedX": true},
+        {"name": "gravestone_large", "id": 2, "_eid": "57863829", "x": 152, "y": 112, "flippedX": false},
+        {"name": "collectable", "id": 3, "_eid": "49320498", "x": 280, "y": 576},
+        {"name": "collectable", "id": 4, "_eid": "49320498", "x": 240, "y": 448},
+        {"name": "collectable", "id": 6, "_eid": "49320498", "x": 240, "y": 184},
+        {"name": "collectable", "id": 7, "_eid": "49320498", "x": 288, "y": 64},
+        {"name": "glow_bottle", "id": 8, "_eid": "40481108", "x": 48, "y": 328},
+        {"name": "gravestone_large", "id": 9, "_eid": "57863829", "x": 136, "y": 328, "flippedX": false},
+        {"name": "collectable", "id": 10, "_eid": "49320498", "x": 216, "y": 328},
+        {"name": "pumpkin", "id": 11, "_eid": "40450855", "x": 120, "y": 560, "flippedX": false}
+      ]
+    }
+  ]
+}

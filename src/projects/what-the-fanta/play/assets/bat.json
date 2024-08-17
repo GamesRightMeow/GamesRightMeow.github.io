@@ -1,0 +1,83 @@
+{ "frames": {
+   "0": {
+    "frame": { "x": 1, "y": 1, "w": 64, "h": 48 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 5, "y": 0, "w": 62, "h": 46 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "1": {
+    "frame": { "x": 66, "y": 1, "w": 66, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 4, "y": 3, "w": 64, "h": 42 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "2": {
+    "frame": { "x": 133, "y": 1, "w": 67, "h": 39 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 6, "w": 65, "h": 37 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "3": {
+    "frame": { "x": 133, "y": 41, "w": 68, "h": 35 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 9, "w": 66, "h": 33 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "4": {
+    "frame": { "x": 1, "y": 50, "w": 72, "h": 32 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 1, "y": 10, "w": 70, "h": 30 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "5": {
+    "frame": { "x": 133, "y": 41, "w": 68, "h": 35 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 9, "w": 66, "h": 33 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "6": {
+    "frame": { "x": 133, "y": 1, "w": 67, "h": 39 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 3, "y": 6, "w": 65, "h": 37 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   },
+   "7": {
+    "frame": { "x": 66, "y": 1, "w": 66, "h": 44 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 4, "y": 3, "w": 64, "h": 42 },
+    "sourceSize": { "w": 71, "h": 46 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "bat.png",
+  "format": "RGBA8888",
+  "size": { "w": 201, "h": 82 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "bat", "from": 0, "to": 7, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

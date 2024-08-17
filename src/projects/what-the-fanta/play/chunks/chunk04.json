@@ -1,0 +1,39 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 375,
+  "height": 667,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "entities",
+      "_eid": "40451126",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 48,
+      "gridCellsY": 85,
+      "entities": [
+        {"name": "pumpkin", "id": 0, "_eid": "40450855", "x": 40, "y": 600, "flippedX": true},
+        {"name": "pumpkin", "id": 2, "_eid": "40450855", "x": 336, "y": 616, "flippedX": false},
+        {"name": "pumpkin", "id": 3, "_eid": "40450855", "x": 336, "y": 320, "flippedX": false},
+        {"name": "pumpkin", "id": 4, "_eid": "40450855", "x": 40, "y": 320, "flippedX": true},
+        {"name": "pumpkin", "id": 6, "_eid": "40450855", "x": 320, "y": 48, "flippedX": false},
+        {"name": "pumpkin", "id": 7, "_eid": "40450855", "x": 56, "y": 48, "flippedX": true},
+        {"name": "gravestone_large", "id": 8, "_eid": "57863829", "x": 208, "y": 456, "flippedX": false},
+        {"name": "gravestone_large", "id": 9, "_eid": "57863829", "x": 152, "y": 472, "flippedX": true},
+        {"name": "gravestone_small", "id": 10, "_eid": "57878296", "x": 184, "y": 416, "flippedX": false},
+        {"name": "gravestone_large", "id": 11, "_eid": "57863829", "x": 192, "y": 216, "flippedX": false},
+        {"name": "gravestone_large", "id": 12, "_eid": "57863829", "x": 184, "y": 160, "flippedX": false},
+        {"name": "collectable", "id": 14, "_eid": "49320498", "x": 184, "y": 568},
+        {"name": "collectable", "id": 15, "_eid": "49320498", "x": 184, "y": 48},
+        {"name": "zombie", "id": 16, "_eid": "59255944", "x": 336, "y": 240, "flippedX": false},
+        {"name": "zombie", "id": 17, "_eid": "59255944", "x": 40, "y": 520, "flippedX": true},
+        {"name": "glow_bottle", "id": 18, "_eid": "40481108", "x": 184, "y": 320},
+        {"name": "gravestone_small", "id": 19, "_eid": "57878296", "x": 240, "y": 224, "flippedX": false},
+        {"name": "gravestone_small", "id": 20, "_eid": "57878296", "x": 144, "y": 192, "flippedX": true}
+      ]
+    }
+  ]
+}

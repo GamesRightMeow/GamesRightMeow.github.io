@@ -1,0 +1,42 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 375,
+  "height": 667,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "entities",
+      "_eid": "40451126",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 48,
+      "gridCellsY": 85,
+      "entities": [
+        {"name": "clue_bottle", "id": 0, "_eid": "59036614", "x": 179.03198399485825, "y": 371.2995784075139},
+        {"name": "gravestone_small", "id": 2, "_eid": "57878296", "x": 232, "y": 472, "flippedX": true},
+        {"name": "gravestone_small", "id": 3, "_eid": "57878296", "x": 144, "y": 472, "flippedX": false},
+        {"name": "pumpkin", "id": 6, "_eid": "40450855", "x": 224, "y": 512, "flippedX": true},
+        {"name": "pumpkin", "id": 7, "_eid": "40450855", "x": 160, "y": 512, "flippedX": false},
+        {"name": "gravestone_small", "id": 8, "_eid": "57878296", "x": 128, "y": 424, "flippedX": false},
+        {"name": "gravestone_small", "id": 9, "_eid": "57878296", "x": 128, "y": 72, "flippedX": true},
+        {"name": "gravestone_small", "id": 10, "_eid": "57878296", "x": 256, "y": 424, "flippedX": false},
+        {"name": "gravestone_small", "id": 11, "_eid": "57878296", "x": 256, "y": 64, "flippedX": false},
+        {"name": "gravestone_large", "id": 12, "_eid": "57863829", "x": 200, "y": 152, "flippedX": false},
+        {"name": "gravestone_small", "id": 13, "_eid": "57878296", "x": 232, "y": 112, "flippedX": false},
+        {"name": "gravestone_small", "id": 14, "_eid": "57878296", "x": 160, "y": 112, "flippedX": true},
+        {"name": "pumpkin", "id": 15, "_eid": "40450855", "x": 200, "y": 168, "flippedX": false},
+        {"name": "zombie", "id": 16, "_eid": "59255944", "x": 32, "y": 608, "flippedX": true},
+        {"name": "zombie", "id": 17, "_eid": "59255944", "x": 336, "y": 200, "flippedX": false},
+        {"name": "collectable", "id": 18, "_eid": "49320498", "x": 328, "y": 608},
+        {"name": "collectable", "id": 19, "_eid": "49320498", "x": 328, "y": 504},
+        {"name": "collectable", "id": 20, "_eid": "49320498", "x": 328, "y": 384},
+        {"name": "collectable", "id": 21, "_eid": "49320498", "x": 48, "y": 264},
+        {"name": "collectable", "id": 22, "_eid": "49320498", "x": 48, "y": 168},
+        {"name": "collectable", "id": 23, "_eid": "49320498", "x": 48, "y": 72}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 375,
+  "height": 667,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "entities",
+      "_eid": "40451126",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 8,
+      "gridCellHeight": 8,
+      "gridCellsX": 48,
+      "gridCellsY": 85,
+      "entities": [
+        {"name": "zombie", "id": 0, "_eid": "59255944", "x": 336, "y": 504, "flippedX": false},
+        {"name": "zombie", "id": 1, "_eid": "59255944", "x": 336, "y": 304, "flippedX": false},
+        {"name": "zombie", "id": 2, "_eid": "59255944", "x": 336, "y": 128, "flippedX": false},
+        {"name": "collectable", "id": 3, "_eid": "49320498", "x": 312, "y": 400},
+        {"name": "collectable", "id": 4, "_eid": "49320498", "x": 312, "y": 200},
+        {"name": "gravestone_small", "id": 5, "_eid": "57878296", "x": 32, "y": 400, "flippedX": false},
+        {"name": "gravestone_small", "id": 6, "_eid": "57878296", "x": 192, "y": 400, "flippedX": true},
+        {"name": "gravestone_small", "id": 7, "_eid": "57878296", "x": 32, "y": 184, "flippedX": false},
+        {"name": "gravestone_small", "id": 8, "_eid": "57878296", "x": 176, "y": 184, "flippedX": true},
+        {"name": "glow_bottle", "id": 10, "_eid": "40481108", "x": 104, "y": 288},
+        {"name": "collectable", "id": 11, "_eid": "49320498", "x": 256, "y": 592},
+        {"name": "gravestone_large", "id": 12, "_eid": "57863829", "x": 176, "y": 64, "flippedX": false},
+        {"name": "pumpkin", "id": 13, "_eid": "40450855", "x": 176, "y": 80, "flippedX": true},
+        {"name": "gravestone_large", "id": 14, "_eid": "57863829", "x": 136, "y": 544, "flippedX": false},
+        {"name": "gravestone_small", "id": 16, "_eid": "57878296", "x": 192, "y": 200, "flippedX": false}
+      ]
+    }
+  ]
+}
