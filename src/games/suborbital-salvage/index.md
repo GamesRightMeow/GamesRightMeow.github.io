@@ -8,7 +8,7 @@ cover: /games/suborbital-salvage/cover.png
 <!-- TODO: replace with in-game offer letter -->
 {% include "image" url: "/games/suborbital-salvage/titlescreen.png" alt: "Titlescreen from Suborbital Salvage." %}
 
-**Suborbital Salvage** is an endless runner set in a dystopian corporate future where you chase a high score while getting berated by your supervisor. Who is also a cat.
+**Suborbital Salvage** is an endless runner set in a dystopian corporate future where you collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
 > On behalf of Suborbital Salvage Ltd., I am pleased to offer you the position of Salvage Pilot! You start immediately, with no benefits. If you survive training, you'll be generously offered an hourly salary.
 > 
