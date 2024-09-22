@@ -12,7 +12,7 @@ _[insert lost video of the glitch in action here]_
 
 But in most cases it was character animations that were just distracting visual issues. Twitchy walk cycles, flickering facial expressions, and etc. For example, in [Robo Quest](https://store.steampowered.com/app/692890/Roboquest/) some weapons will flicker:
 
-![Bow in RoboQuest glitches while standing still.](unreal-flicker.gif)
+![Bow in RoboQuest glitches while standing still.](unreal-flicker.webp)
 
 It's was driving me absolutely bonkers, but its been difficult to Google for. Generic searches of animation "flickering" or "stuttering" often results in hundreds of pages of Reddit/Steam posts of people trying to fix performance issues. This most definitely was not a performance issue - all affected games were running at a solid 60FPS.
 

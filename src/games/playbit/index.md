@@ -2,14 +2,14 @@
 title: Playbit
 header: Playbit
 layout: game
-cover: /games/playbit/playbit-logo.png
+cover: /games/playbit/playbit-logo.webp
 ---
 Playbit is a framework for creating cross-platform Playdate games from a single Lua codebase. To accomplish this, it has two key components:
 
 - A reimplemention of the [Playdate API](https://sdk.play.date/Inside%20Playdate.html) in [Love2D](https://love2d.org/).
 - A build system that utilizes [LuaPreprocess](https://github.com/ReFreezed/LuaPreprocess/) to strip/inject platform dependent code.
 
-{% include "image" url: "/games/playbit/playbit-demo.gif" alt: "Gif demonstrating Playbit launching a game in the Playdate simulator and desktop at the same time." %}
+{% include "image" url: "/games/playbit/playbit-demo.webp" alt: "Gif demonstrating Playbit launching a game in the Playdate simulator and desktop at the same time." %}
 
 # Why should you use Playbit?
 If you're looking for a framework for creating cross-platform Playdate games from a single Lua codebase, then that's Playbit's primary goal!

@@ -26,7 +26,7 @@ Once I've gather my baseline snap shots, I load up the snapshot with deep profil
 
 There's two main categories of markers you'll see: script update and rendering markers.
 
-![Image of shallow profiler timeline](highlevel-view.png)
+![Image of shallow profiler timeline](highlevel-view.webp)
 
 There's no best balance of these two categories and depends heavily on the game. Something leaning more heavily into visual effects will spend more time rendering, where as something learning more into simulation will spend more time in script updates.
 

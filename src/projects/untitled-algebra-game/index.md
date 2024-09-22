@@ -2,7 +2,7 @@
 title: Untitled Algebra Game
 header: untitled algebra game
 layout: project
-cover: /projects/untitled-algebra-game/screenshot2.png
+cover: /projects/untitled-algebra-game/screenshot2.webp
 ---
 
 _Untitled Algebra Game_ was an educational game that I worked on with [Filament Games](https://www.filamentgames.com/) before it was unfortunately put on indefinite hold.
@@ -19,7 +19,7 @@ As the project's lead engineer, I was responsible for all engineering tasks; fro
 * Created a comprehensive handoff document to allow Filament to easily resume the project at a later date.
 
 # Media
-{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader.gif" alt: "Metaball shader" %}
-{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.gif" alt: "Metaball shader under the hood" %}
-{% include "image" url: "/projects/untitled-algebra-game/screenshot1.png" alt: "Dialogue" %}
-{% include "image" url: "/projects/untitled-algebra-game/screenshot2.png" alt: "Cells" %}
+{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader.webp" alt: "Metaball shader" %}
+{% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.webp" alt: "Metaball shader under the hood" %}
+{% include "image" url: "/projects/untitled-algebra-game/screenshot1.webp" alt: "Dialogue" %}
+{% include "image" url: "/projects/untitled-algebra-game/screenshot2.webp" alt: "Cells" %}
