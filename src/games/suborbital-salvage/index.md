@@ -2,11 +2,11 @@
 title: Suborbital Salvage
 header: Suborbital Salvage
 layout: game
-cover: /games/suborbital-salvage/cover.png
+cover: /games/suborbital-salvage/cover.webp
 ---
 
 <!-- TODO: replace with in-game offer letter -->
-{% include "image" url: "/games/suborbital-salvage/titlescreen.png" alt: "Titlescreen from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
 
 **Suborbital Salvage** is an endless runner set in a dystopian corporate future where you collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
@@ -31,5 +31,8 @@ cover: /games/suborbital-salvage/cover.png
 # Media
 <!-- TODO: add trailer -->
 
-{% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.gif" alt: "Gameplay from Suborbital Salvage." %}
-{% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.gif" alt: "Crash montage from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
