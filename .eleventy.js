@@ -35,7 +35,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' });
   eleventyConfig.addPassthroughCopy({ './src/media/': './media/' });
   eleventyConfig.addPassthroughCopy({ './src/fontawesome/': './fontawesome/' });
-  eleventyConfig.addPassthroughCopy({ './src/favicon.ico': './favicon.ico' });
+  
+  eleventyConfig.addPassthroughCopy({ './src/favicon/': '.' });
 
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 

@@ -13,3 +13,6 @@
 
 # Dates
 `tended` and `planted` dates must be in ISO UTC format `YYYY-MM-DD[T]HH:mm:ss.SSS[Z]`, or `iso` if `Insert Date String (jsynowiec.vscode-insertdatestring)` extension
+
+# Notes
+Regen favicon files at https://realfavicongenerator.net/
