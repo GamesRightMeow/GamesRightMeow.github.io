@@ -22,8 +22,9 @@ cover: /games/suborbital-salvage/cover.webp
 > Your new supervisor
 
 # Purchase
-- Playdate (coming soon)
-- Steam (coming soon)
+Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server for updates:  
+{% include "contact" %}
+
 <!-- {% include "itchio" url: "https://itch.io/embed/1664518?dark=true" %} -->
 
 <!-- TODO: add presskit -->
