@@ -20,13 +20,13 @@ cover: /games/suborbital-salvage/cover.webp
 > Cheers,  
 > Your new supervisor
 
+{% include "big-button" label: "presskit", url: "presskit" %}
+
 # Purchase
 Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server for updates:  
 {% include "contact" %}
 
 <!-- {% include "itchio" url: "https://itch.io/embed/1664518?dark=true" %} -->
-
-<!-- TODO: add presskit -->
 
 # Media
 
