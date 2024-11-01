@@ -5,7 +5,6 @@ layout: game
 cover: /games/suborbital-salvage/cover.webp
 ---
 
-<!-- TODO: replace with in-game offer letter -->
 {% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
 
 **Suborbital Salvage** is an endless runner set in a dystopian corporate future where you collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
@@ -30,8 +29,8 @@ Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server f
 <!-- TODO: add presskit -->
 
 # Media
-<!-- TODO: add trailer -->
 
+{% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
