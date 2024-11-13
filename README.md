@@ -12,7 +12,9 @@
 - `hide-recently-planted` = hides post from recently tended widgets
 
 # Dates
-`tended` and `planted` dates must be in ISO UTC format `YYYY-MM-DD[T]HH:mm:ss.SSS[Z]`, or `iso` if `Insert Date String (jsynowiec.vscode-insertdatestring)` extension
+`tended` and `planted` dates must be in ISO UTC format `YYYY-MM-DD[T]HH:mm:ss.SSS[Z]`, or `iso` if `Insert Date String (jsynowiec.vscode-insertdatestring)` extension.
+
+Googling `date in iso utc` will return the current date in the correct format (UTC).
 
 # Notes
 - Regen favicon files at https://realfavicongenerator.net/
