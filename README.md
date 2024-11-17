@@ -16,6 +16,8 @@
 
 Googling `date in iso utc` will return the current date in the correct format (UTC).
 
+This website is also handy https://www.timestamp-converter.com/
+
 # Notes
 - Regen favicon files at https://realfavicongenerator.net/
-- Debug build time `set DEBUG=Eleventy:Benchmark* & npm run serve`
+- Debug build time via `set DEBUG=Eleventy:Benchmark* & npm run serve`
