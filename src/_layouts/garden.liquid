@@ -8,7 +8,7 @@ tags: garden
     <h1 class="pb-10 text-grm-white text-5xl leading-10 font-black align-middle uppercase">
       {{ title }}
     </h1>
-    <div class="flex text-sm -mt-10 mb-10 flex-col sm:flex-row sm:gap-4">
+    <div class="flex text-sm -mt-10 pb-2 flex-col sm:flex-row sm:gap-4 border-b-2 border-gray-700">
       <div>{{ status | prettyStatus }}</div>
       <div data-date-swap class="hover:underline no-underline cursor-pointer">
         <i data-date-rel class="flex gap-1">Planted {% render "time-since" date: planted %}</i>
@@ -21,7 +21,7 @@ tags: garden
     </div>
 
     <main class="
-      pb-8
+      pb-8 pt-5
       
       prose text-grm-white prose-base text-sm prose:max-w-full
       prose-blockquote:m-0
