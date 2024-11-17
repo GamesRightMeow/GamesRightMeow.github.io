@@ -4,7 +4,7 @@ permalink: /garden/
 layout: garden
 status: evergreen
 planted: 2023-05-11T5:00:00Z
-tended: 2024-05-24T11:45:47Z
+tended: 2024-11-17T22:20:20Z
 ---
 
 I enjoy writing and sharing knowledge, but I've always had a hard time finding regular time to do it. The [digital garden](https://maggieappleton.com/garden-history) philosophy allows me to share knowledge in an iterative way and without committing a bunch of time up front.
