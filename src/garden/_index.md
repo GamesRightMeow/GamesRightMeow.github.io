@@ -20,7 +20,6 @@ Every article in this garden has three pieces of metadata (idea borrowed from [M
   - 🌳 Evergreen - articles that are reasonably complete (though I still tend these over time).
 
 ## Featured
-- [All Posts](all-pages)
 - [How this garden is organized](organizing-the-garden)
 
 ## Recently planted
