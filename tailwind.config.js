@@ -49,6 +49,14 @@ module.exports = {
     },
 
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            'blockquote p:first-of-type::before': false,
+            'blockquote p:first-of-type::after': false,
+          },
+        },
+      },
       spacing: {
         // I'm really not sure how these numbers relate to eachother...
         '128': '32rem',
