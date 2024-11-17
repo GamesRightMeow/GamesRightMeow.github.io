@@ -14,10 +14,12 @@ tags: garden
         <i data-date-rel class="flex gap-1">Planted {% render "time-since" date: planted %}</i>
         <i data-date-abs>Planted {{ planted | formatDate: "MM/DD/YYYY h:mm a" }} </i>
       </div>
+      {%if tended %}
       <div data-date-swap class="hover:underline no-underline cursor-pointer">
         <i data-date-rel class="flex gap-1">Last tended {% render "time-since" date: tended %}</i>
         <i data-date-abs>Last tended {{ tended | formatDate: "MM/DD/YYYY h:mm a" }} </i>
       </div>
+      {% endif %}
     </div>
 
     <main class="
