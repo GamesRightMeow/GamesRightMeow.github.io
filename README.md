@@ -21,3 +21,8 @@ This website is also handy https://www.timestamp-converter.com/
 # Notes
 - Regen favicon files at https://realfavicongenerator.net/
 - Debug build time via `set DEBUG=Eleventy:Benchmark* & npm run serve`
+
+# Gardens that inspired this one
+- https://gwern.net/about
+- https://notes.andymatuschak.org
+- https://maggieappleton.com/
