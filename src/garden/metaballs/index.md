@@ -1,7 +1,7 @@
 ---
 title: Metaballs
 layout: garden
-status: seedling
+status: evergreen
 planted: 2023-05-11T05:36:20Z
 tended: 2024-11-13T02:38:28Z
 ---

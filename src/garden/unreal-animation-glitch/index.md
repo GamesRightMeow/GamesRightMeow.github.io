@@ -1,13 +1,14 @@
 ---
 title: Unreal animation glitch
 layout: garden
-status: seedling
+status: evergreen
 planted: 2024-06-04T14:50:33Z
-tended: 2024-06-05T16:50:33Z
+tended: 2024-11-17T19:25:41Z
 ---
 
-Since ~2021 I've been seeing a weird glitch on animated models in some games. When I first experienced it in [Deep Rock Galactic](https://store.steampowered.com/app/548430/Deep_Rock_Galactic/) - the camera rig would glitch and twitch the camera 90 degrees! <!-- TODO: Do I still have a video clip of this somewhere? -->
+Since ~2021 I've been seeing a weird glitch on animated models in some games. When I first experienced it in [Deep Rock Galactic](https://store.steampowered.com/app/548430/Deep_Rock_Galactic/) - the camera rig would glitch and twitch the camera 90 degrees!
 
+<!-- TODO: Do I still have a video clip of this somewhere? -->
 _[insert lost video of the glitch in action here]_
 
 But in most cases it was character animations that were just distracting visual issues. Twitchy walk cycles, flickering facial expressions, and etc. For example, in [Robo Quest](https://store.steampowered.com/app/692890/Roboquest/) some weapons will flicker:
