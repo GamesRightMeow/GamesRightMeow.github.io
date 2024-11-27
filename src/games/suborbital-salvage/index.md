@@ -36,3 +36,7 @@ Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server f
 {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_5.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_7.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_8.webp" alt: "" %}
