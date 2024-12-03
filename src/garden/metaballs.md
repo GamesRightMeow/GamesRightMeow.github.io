@@ -1,9 +1,9 @@
 ---
 title: Metaballs
 layout: garden
-status: seedling
+status: evergreen
 planted: 2023-05-11T05:36:20Z
-tended: 2023-05-11T05:36:20Z
+tended: 2024-11-13T02:38:28Z
 ---
 
 An early goal in the development of [Untitled Algebra Game](/projects/untitled-algebra-game) was to visualize exponents as cells since [mitosis](https://en.wikipedia.org/wiki/Mitosis) translated well to exponent math.
@@ -21,7 +21,7 @@ I didn't find a metaball Shader Graph, but I did find this [gold nugget](https:/
 
 After a day or two of fiddling with nodes, I had a working metaball shader 🎉
 
-![asd](/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.gif)
+![Gif of metaballs working in the Unity Editor](/projects/untitled-algebra-game/sag-metaball-shader-behind-the-scenes.webp)
 
 Unfortunately my programmer art was never replaced and the cells still have the ugly purple base texture 🙈
 
