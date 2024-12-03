@@ -11,8 +11,8 @@ no-index: true
 **Developer**: Games Right Meow  
 **Website**: [gamesrightmeow.com/suborbital-salvage](/games/suborbital-salvage)  
 **Press contact**: press@gamesrightmeow.com  
-**Release date**: Coming soon  
-**Platforms**: Playdate and PC (Windows)  
+**Release date**: February 11th 2025  
+**Platforms**: Playdate  
 **Languages**: English  
 **Genres**: action, endless runner  
 
