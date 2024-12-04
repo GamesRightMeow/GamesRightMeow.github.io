@@ -15,26 +15,28 @@ no-index: true
 **Press / business contact**: press[at]gamesrightmeow.com  
 {% include "contact" %}
 
-# Logo & Icon
+{% include "image" url: "/android-chrome-192x192.png" %}
+{% include "image" url: "/media/grm-header.png" %}
 
-{% include "image" url: "/games/suborbital-salvage/cover.webp" alt: "" %}
-{% include "image" url: "icon.webp" alt: "" %}
-
-# Description
+# About Suborbital Salvage
+Suborbital Salvage is an endless runner set in a dystopian corporate future. Collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
 # Features
 - Avoid asteroids, space mines, rogue missiles, and 10+ other hazards.
-- Procedurally generated runs assembled from over 100+ hand-crafted level segments.
-- Crank-focused gameplay.
+- Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments.
+- Crank-focused ship control.
+- A space...fish?
 
 # Factsheet
 **Developer**: [Games Right Meow](gamesrightmeow.com)  
 **Website**: [gamesrightmeow.com/suborbital-salvage](/games/suborbital-salvage)  
 **Press / business contact**: press[at]gamesrightmeow.com  
 **Release date**: February 11th 2025  
-**Platforms**: Playdate  
+**Platforms**: [Playdate](https://play.date/)  
 **Languages**: English  
 **Genres**: Action, Endless Runner, Score Chaser  
+
+<!-- # Store Links -->
 
 <!-- # Reviews -->
 
@@ -43,37 +45,29 @@ __Team__
 - Alex Larioza: programming, game design, art
 - Eric Liaw: UX and level design
 
-__Special thanks__
-- DavidKBD's [Code Injection Dark Techno Music Pack](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) for "Ghost Steps" and "Behind the Darkness". [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
+__Music__
+- ["Ghost Steps"](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) by [DavidKBD](https://davidkbd.itch.io/) is licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
+- ["Behind the Darkness"](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) by [DavidKBD](https://davidkbd.itch.io/) is licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
+
+
+# Logo & Icon
+{% include "image" url: "/games/suborbital-salvage/cover.webp" alt: "" %}
+{% include "image" url: "icon.webp" alt: "" %}
 
 # Videos
-
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
 
-# Images
-{% include "big-button" label: "Download images", url: "screenshots.zip", center: false %}
+# Gifs & Screenshots
+{% include "big-button" label: "Download gifs & screenshots", url: "screenshots.zip", center: false %}
 
-<div class="flex gap-2">
-  {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
-  {% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
-</div>
-
-<div class="flex gap-2">
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
-</div>
-
-<div class="flex gap-2">
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
-</div>
-
-<div class="flex gap-2">
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_5.webp" alt: "" %}
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
-</div>
-
-<div class="flex gap-2">
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_7.webp" alt: "" %}
-  {% include "image" url: "/games/suborbital-salvage/Screenshot_8.webp" alt: "" %}
-</div>
+<!-- TODO: responsive image grid -->
+{% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_5.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_7.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_8.webp" alt: "" %}
