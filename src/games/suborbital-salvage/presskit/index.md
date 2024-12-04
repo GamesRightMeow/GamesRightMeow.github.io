@@ -7,13 +7,20 @@ show-nav: false
 no-index: true
 ---
 
-<!-- TODO: turn this into a reuseable include for other games -->
+{% # TODO: turn this section into a reuseable include for other games %}
 # About Games Right Meow
 **Website**: [Games Right Meow](gamesrightmeow.com)  
 **Location**: California, USA  
 **Founded**: 2023  
 **Press / business contact**: press[at]gamesrightmeow.com  
-{% include "contact" %}
+
+{% # TODO: create include for socials? include icon in links? %}
+**Socials:**  
+<i class="fa-brands fa-bluesky"></i> [Bluesky](https://bsky.app/profile/gamesrightmeow.com)  
+<i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/JzUz6ArETJ)  
+<i class="fa-brands fa-mastodon"></i> [Mastodon](https://mastodon.gamedev.place/@gamesrightmeow)  
+<i class="fa-brands fa-instagram"></i> [Instagram](https://www.instagram.com/gamesrightmeowllc)  
+<i class="fa-brands fa-facebook"></i> [Facebook](https://www.facebook.com/people/Games-Right-Meow/61569359122506/)
 
 {% include "image" url: "/android-chrome-192x192.png" %}
 {% include "image" url: "/media/grm-header.png" %}
@@ -36,9 +43,9 @@ Suborbital Salvage is an endless runner set in a dystopian corporate future. Col
 **Languages**: English  
 **Genres**: Action, Endless Runner, Score Chaser  
 
-<!-- # Store Links -->
+{% # Store Links %}
 
-<!-- # Reviews -->
+{% # Reviews %}
 
 # Credits
 __Team__
@@ -60,7 +67,7 @@ __Music__
 # Gifs & Screenshots
 {% include "big-button" label: "Download gifs & screenshots", url: "screenshots.zip", center: false %}
 
-<!-- TODO: responsive image grid -->
+{% # TODO: responsive image grid %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
