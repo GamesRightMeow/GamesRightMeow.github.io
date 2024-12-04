@@ -7,7 +7,7 @@ cover: /games/suborbital-salvage/cover.webp
 
 {% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
 
-**Suborbital Salvage** is an endless runner set in a dystopian corporate future where you collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
+**Suborbital Salvage** is an endless runner set in a dystopian corporate future. Collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
 > On behalf of Suborbital Salvage Ltd., I am pleased to offer you the position of Salvage Pilot! You start immediately, with no benefits. If you survive training, you'll be generously offered an hourly salary.
 > 
@@ -23,10 +23,7 @@ cover: /games/suborbital-salvage/cover.webp
 # Purchase
 Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server for updates:  
 {% include "contact" %}
-
-<!-- {% include "itchio" url: "https://itch.io/embed/1664518?dark=true" %} -->
-
-<!-- TODO: add presskit -->
+{% include "big-button" label: "presskit", url: "presskit", center: false %}
 
 # Media
 
@@ -36,3 +33,7 @@ Coming to Playdate and Steam! Follow us on Mastodon or join the Discord server f
 {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_5.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_7.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_8.webp" alt: "" %}

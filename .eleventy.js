@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/games/**/*.jpg');
   eleventyConfig.addPassthroughCopy('./src/games/**/*.gif');
   eleventyConfig.addPassthroughCopy('./src/games/**/*.webp');
+  eleventyConfig.addPassthroughCopy('./src/games/**/*.zip');
   eleventyConfig.addPassthroughCopy('./src/playdate.json')
   eleventyConfig.addPassthroughCopy('./src/playdate-update.js')
   
