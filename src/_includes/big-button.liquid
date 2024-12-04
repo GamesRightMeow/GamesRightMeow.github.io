@@ -1,4 +1,8 @@
-<div class="flex justify-center">
+{% if center == false%}
+<div class="my-4">
+{% else %}
+<div class="my-4 flex justify-center">
+{% endif %}
   <button class="bg-grm-red py-2 px-4 text-lg rounded-md font-bold hover:bg-grm-red-hover" onclick="window.location.href='{{ url }}';">
     {{ label | upcase }}
   </button>
