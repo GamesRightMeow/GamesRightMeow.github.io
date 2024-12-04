@@ -11,19 +11,22 @@ tags: page
     {% endif %}
 
     <main class="
-      pb-8
-      
+      pb-8 pt-5
+        
       prose text-grm-white prose-base text-sm prose:max-w-full
       prose-blockquote:m-0
       prose-strong:font-extrabold
       prose-headings:text-grm-white prose-headings:uppercase prose-headings:leading-6 prose-headings:mb-4 prose-headings:mt-8
       prose-h1:text-3xl 
-      prose-strong:text-grm-white-bold 
+      prose-strong:text-grm-white 
       prose-code:text-gray-400 prose-code:font-mono prose-code:bg-gray-800 prose-code:font-thin prose-code:before:hidden prose-code:after:hidden
-      prose-pre:text-base
+      prose-pre:w-80 sm:prose-pre:w-full
       prose-tr:divide-x prose-tr:border-gray-500
       prose-blockquote:text-grm-white prose-blockquote:font-mono
       prose-a:text-grm-red prose-a:font-bold prose-a:no-underline hover:prose-a:bg-gray-800
+      marker:text-grm-white
+      prose-ul:mt-0 prose-li:my-0
+      prose-p:mb-0
     ">
       {{ content }}
     </main>
