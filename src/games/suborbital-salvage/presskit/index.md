@@ -12,7 +12,7 @@ no-index: true
 **Website**: [Games Right Meow](gamesrightmeow.com)  
 **Location**: California, USA  
 **Founded**: 2023  
-**Press / business contact**: press[at]gamesrightmeow.com  
+**Press contact**: press[at]gamesrightmeow.com  
 
 {% # TODO: create include for socials? include icon in links? %}
 **Socials:**  
@@ -22,11 +22,12 @@ no-index: true
 <i class="fa-brands fa-instagram"></i> [Instagram](https://www.instagram.com/gamesrightmeowllc)  
 <i class="fa-brands fa-facebook"></i> [Facebook](https://www.facebook.com/people/Games-Right-Meow/61569359122506/)
 
-{% include "image" url: "/android-chrome-192x192.png" %}
+**Logo&Icon**
 {% include "image" url: "/media/grm-header.png" %}
+{% include "image" url: "/android-chrome-192x192.png" %}
 
 # About Suborbital Salvage
-Suborbital Salvage is an endless runner set in a dystopian corporate future. Collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
+Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
 # Features
 - Avoid asteroids, space mines, rogue missiles, and 10+ other hazards.
@@ -37,7 +38,7 @@ Suborbital Salvage is an endless runner set in a dystopian corporate future. Col
 # Factsheet
 **Developer**: [Games Right Meow](gamesrightmeow.com)  
 **Website**: [gamesrightmeow.com/suborbital-salvage](/games/suborbital-salvage)  
-**Press / business contact**: press[at]gamesrightmeow.com  
+**Press contact**: press[at]gamesrightmeow.com  
 **Release date**: February 11th 2025  
 **Platforms**: [Playdate](https://play.date/)  
 **Languages**: English  
