@@ -12,7 +12,7 @@ cover: /games/suborbital-salvage/cover.webp
 > On behalf of Suborbital Salvage Ltd., I am pleased to offer you the position of Salvage Pilot! You start immediately, with no benefits. If you survive training, you'll be generously offered an hourly salary.
 > 
 > You will be required to:
-> - Avoid asteroids, space mines, rogue missiles, and 10+ other hazards.
+> - Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
 > - Collect salvage. No you can't keep it.
 > - Not crash your multi-million dollar spaceship.
 > - Refrain from feeding the giant space fish.

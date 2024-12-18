@@ -30,9 +30,11 @@ no-index: true
 Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
 
 # Features
-- Avoid asteroids, space mines, rogue missiles, and 10+ other hazards.
+- Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
 - Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments.
 - Crank-focused ship control.
+- Over 100+ lines of "motivational" dialog from your supervisor.
+- Outperform other employees across 3 online leaderboards.
 - A space...fish?
 
 # Factsheet
