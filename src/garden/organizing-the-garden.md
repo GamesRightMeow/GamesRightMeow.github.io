@@ -15,6 +15,8 @@ The __Planted__ date is the date the article was first added.
 
 The __Last tended__ date is when the article was last updated. I typically only update this date when I make a change to the content, but not when fixing broken links, correcting typos, etc.
 
+By default both the __Planted__ and __Last tended__ dates show the amount of time that has passed since the respective date (e.g. "Planted 2 years ago"). You can click either of these to toggle the display to an absolute date/time (e.g. "Planted 05/11/2023 5:00 am").
+
 Borrowing from [Maggie Appleton's garden](https://maggieappleton.com/garden-history#3-imperfection--learning-in-public), the __Status__ is a rough indicator of how "done" I feel an article is:
   - 🌱 __Seedling__: A very rough and early idea. Often just a some notes.
   - 🌿 __Budding__: Cleaned up and presentable, but still missing some intended content.
