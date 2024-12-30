@@ -1,7 +1,7 @@
 ---
 title: Roleplaying Sandbox
 layout: garden
-status: seedling
+status: budding
 planted: 2024-11-17T21:33:38Z
 tended: 2024-12-30T05:04:11Z
 ---
