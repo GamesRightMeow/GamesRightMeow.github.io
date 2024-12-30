@@ -31,7 +31,7 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 
 # Features
 - Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
-- Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments.
+- Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments across 3 regions.
 - Crank-focused ship control.
 - Over 100+ lines of "motivational" dialog from your supervisor.
 - Outperform other employees across 3 online leaderboards.
