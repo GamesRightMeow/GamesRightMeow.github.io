@@ -9,7 +9,7 @@ tended: 2024-11-17T22:20:20Z
 
 I enjoy writing and sharing knowledge, but I've always had a hard time finding regular time to do it. The [digital garden](https://maggieappleton.com/garden-history) philosophy allows me to share knowledge in an iterative way and without committing a bunch of time up front.
 
-![](garden-shrooms.jpg)
+![](garden-shrooms.webp)
 
 There is no chronological post history. Articles aren't always refined, or even complete. Content is always evolving. This garden is imperfect by design. [Learn more on how the garden is organized](organizing-the-garden).
 
