@@ -1,11 +1,10 @@
 ---
 title: Suborbital Salvage
-header: Suborbital Salvage
 layout: game
 cover: /games/suborbital-salvage/cover.webp
 ---
 
-{% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
+![](/games/suborbital-salvage/cover.webp)
 
 > Greetings Applicant,
 > 
@@ -20,16 +19,26 @@ cover: /games/suborbital-salvage/cover.webp
 > Cheers,  
 > Your new supervisor
 
-Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
+Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor - who is also a cat.
 
 # Purchase
 Coming to Playdate and Steam! Follow us on Bluesky or join the Discord server for updates:  
 {% include "contact" %}
 {% include "big-button" label: "presskit", url: "presskit", center: false %}
 
-# Media
+# Credits
+__Team__
+- Alex Larioza: programming, game design, art
+- Eric Liaw: UX and level design
 
+__Music__
+- ["Ghost Steps"](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) by [DavidKBD](https://davidkbd.itch.io/) is licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
+- ["Behind the Darkness"](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) by [DavidKBD](https://davidkbd.itch.io/) is licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
+
+
+# Media
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
+{% include "image" url: "/games/suborbital-salvage/suborbital-crash-montage-x2.webp" alt: "Crash montage from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}

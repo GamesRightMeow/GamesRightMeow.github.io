@@ -27,12 +27,12 @@ no-index: true
 {% include "image" url: "/android-chrome-192x192.png" %}
 
 # About Suborbital Salvage
-Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor. Who is also a cat.
+Test your piloting skills in this endless runner set in a dystopian corporate future. You must collect salvage and avoid hazards while getting berated by your supervisor - who is also a cat.
 
 # Features
 - Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
-- Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments across 3 regions.
 - Crank-focused ship control.
+- Procedurally generated salvage runs assembled from over 100+ hand-crafted level segments across 4 unique regions.
 - Over 100+ lines of "motivational" dialog from your supervisor.
 - Outperform other employees across 3 online leaderboards.
 - A space...fish?
@@ -68,7 +68,7 @@ __Music__
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
 
 # Gifs & Screenshots
-{% include "big-button" label: "Download gifs & screenshots", url: "screenshots.zip", center: false %}
+{% include "big-button" label: "Download all", url: "https://drive.google.com/drive/folders/1LIhDITkwCjTnZ7u54c1rlj8tVLIi2uwg?usp=sharing", center: false %}
 
 {% # TODO: responsive image grid %}
 {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
