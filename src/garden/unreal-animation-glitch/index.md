@@ -3,7 +3,7 @@ title: Unreal animation glitch
 layout: garden
 status: evergreen
 planted: 2024-06-04T14:50:33Z
-tended: 2024-11-17T19:25:41Z
+tended: 2025-01-06T00:26:17Z
 ---
 
 Since ~2021 I've been seeing a weird glitch on animated models in some games. When I first experienced it in [Deep Rock Galactic](https://store.steampowered.com/app/548430/Deep_Rock_Galactic/) - the camera rig would glitch and twitch the camera 90 degrees!
@@ -13,7 +13,11 @@ _[insert lost video of the glitch in action here]_
 
 But in most cases it was character animations that were just distracting visual issues. Twitchy walk cycles, flickering facial expressions, and etc. For example, in [Robo Quest](https://store.steampowered.com/app/692890/Roboquest/) some weapons will flicker:
 
-![Bow in RoboQuest glitches while standing still.](unreal-flicker.webp)
+![Bow in RoboQuest glitches while standing still.](roboquest-flicker.webp)
+
+In Lord of the Rings: Return to Moria characters twitch:
+
+![Dwarf in Return to Moria showing twitchy animations](return-to-moria-flicker.webp)
 
 It's was driving me absolutely bonkers, but its been difficult to Google for. Generic searches of animation "flickering" or "stuttering" often results in hundreds of pages of Reddit/Steam posts of people trying to fix performance issues. This most definitely was not a performance issue - all affected games were running at a solid 60FPS.
 
@@ -66,4 +70,17 @@ $game.ProcessorAffinity=0x3F
 Wait-Process $game.id
 ```
 
-Hopefully this helps at least one person!
+# Resolving the problem on Ubuntu
+
+I decided in 2025 to switch from Windows to Ubuntu, but on the same hardware where the problem still persisted. However setting the CPU affinity proved to be _much_ easier, and only required calling a single command [taskset](https://man7.org/linux/man-pages/man1/taskset.1.html).
+
+However one complication was that setting the CPU affinity _after_ the game launched 
+
+The weird part was that the cores I needed to disable were different under Ubuntu vs Windows 11. Instead of just disabling cores 1 and 2, I had to disable all even-numbered cores.
+
+For Steam games this was a simple as adding `taskset -c 0,2,4,6,8,10,12 %command%` for the [launch options](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955) for each game.
+
+For non-Steam games (e.g. Epic, Amazon, GOG) I use [Heroic Games Launcher](https://heroicgameslauncher.com/) and found it was also just as simple as adding the same command as a wrapper command for the game:
+taskset
+-c 0,2,4,6,8,10,12
+![Screenshot of the taskset command added to heroic games launcher as a wrapper command](heroic-wrapper-command.webp)
