@@ -3,7 +3,7 @@ title: Optimizing Suborbital Salvage
 layout: garden
 status: budding
 planted: 2025-01-04T05:09:28Z
-tended: 2025-01-15T16:06:54Z
+tended: 2025-01-16T14:16:45Z
 ---
 
 # How the game is architected
@@ -96,21 +96,34 @@ Although if you use the dev tools to skip to more entity heavy chunks, you do se
 ![A GIF that shows entities in game popping in well after they should have been loaded.](dev-tool-pop-in.webp)
 
 ## Expose a collidable flag
-- Many chunks had overlapping entities, which means some of those colliders were redundant. Exposed flag to reduce amount of colliders.
+In some really dense chunks, there were often groups of entities that would be unreachable by the player. For example, the entities highlighted here in red:
+
+![A screen shot of a chunk with a group of entities that aren't reachable by the player highlighted in a red outline.](unreachable-objects.webp)
+
+For situations like this, we could remove this entities from the collision manager to save ourselves some collision checks. To accomplish this, I exposed a `collideable` flag in Ogmo so we could do this by hand.
+
+While this wasn't a global win, it did _really_ help bring up the FPS in the later chunks where we have very dense designs.
 
 ## Only check colliders that are immediately around the player
-- Player doesn't move along the x, so we can limit collision checks to area around player.
-- Player has three circle colliders and an larger collider
-  - Larger collider is checked first before examining collisions with smaller colliders
 
-## Limit function use in performance critical areas
-- Leveraging macros from Playbit to inline functions.
-- Use `image[frame]` instead of `image:getFrame(frame)`
+Since the only thing in the game that collides with other things is the player, the only collision checks made are between the player and obstacles - Never an obstacle and another obstacle. This in itself helps a ton with performance, but I took this a bit further.
 
-## Trim extra data from chunks
-- Load times
+The player ship has four circle colliders. Three of them are the actual ship colliders, but the fourth is an oversized used for an initial proximity check:
+
+![A screenshot of the game with a debug overlay showing collider shapes.](player-colliders.webp)
+
+Without the proximity collider, we'd need to do a collision check for each of the ship colliders against all active obstacles. For example, if there were 200 obstacles, that would be 600 collisions checks!
+
+But with the proximity collider, collisions with the actual ship colliders are only checked if an obstacle first collides with the proximity collider. This helps reduce the number of checks in a typical frame by 66% e.g. if there's 200 obstacles, only checking the proximity collider means there's only 200 collision checks per frame.
+
+<!-- TODO: ## Baking image rotations -->
 
 ## Small wins
-- Limiting function use in performance critical areas. Leveraging macros from Playbit.
+- Inline functions where possible to remove overhead of invoking a function.
+  - Using `if-else` statements in place of functions like `math.min`, `math.max`, `math.abs`.
+  - Leveraging [macros](https://github.com/GamesRightMeow/playbit/blob/main/docs/core-concepts.md#macro-functions) from [Playbit](/games/playbit/) to inline more complex functions without creating duplicated code.
+  - Using Playbit's [timer](/garden/071323e8bc30465c9ba08ed94220daa4) which internally invokes less functions and allows for access of timer properties via index.
+  - Using `image[frame]` instead of `image:getFrame(frame)`.
 - Saving table properties to a local variable when accessed more than once.
-- Adding a developer "autopilot mode"
+- Ogmo adds extra metadata to chunk JSON which wasn't used by the game. However with 100+ chunks, this extra data caused the initial load time to be longer. To address this, I added a build time step that trims the unneeded data from the chunks.
+- Adding a developer "autopilot mode" to make performance tests more consistent and easier to run. Also made it super easy to run 4h+ soak tests to ensure game stability!
