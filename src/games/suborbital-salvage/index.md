@@ -4,7 +4,7 @@ layout: game
 cover: /games/suborbital-salvage/cover.webp
 ---
 
-![](/games/suborbital-salvage/cover.webp)
+![Key art for the game featuring a fish about to eat a space ship while orbiting around the fiction planet Cetos.](/games/suborbital-salvage/cover.webp)
 
 <!-- > Greetings Applicant,
 > 
@@ -32,7 +32,7 @@ __Features:__
 {% include "big-button" label: "presskit", url: "presskit", center: false %}
 
 # Purchase
-- Playdate (Launching on Playdate on February 11th 2025)
+- Playdate (Launching on Playdate Catalog on February 11th 2025)
 - Steam (Coming later in 2025)
 
 # Updates
@@ -45,6 +45,7 @@ __Features:__
 
 # Media
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
+
 {% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
 
 {% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}

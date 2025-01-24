@@ -20,11 +20,11 @@ no-index: true
 <i class="fa-brands fa-discord"></i> [Discord](https://discord.gg/JzUz6ArETJ)  
 <i class="fa-brands fa-mastodon"></i> [Mastodon](https://mastodon.gamedev.place/@gamesrightmeow)  
 <i class="fa-brands fa-instagram"></i> [Instagram](https://www.instagram.com/gamesrightmeowllc)  
-<i class="fa-brands fa-facebook"></i> [Facebook](https://www.facebook.com/people/Games-Right-Meow/61569359122506/)
+<i class="fa-brands fa-facebook"></i> [Facebook](https://www.facebook.com/people/Games-Right-Meow/61569359122506)  
+<i class="fa-brands fa-youtube"></i> [Youtube](https://www.youtube.com/channel/UCic2Wd01Co8pwNRLeaRY_QA)  
 
-**Logo & Icon**
-{% include "image" url: "/media/grm-header.png" %}
-{% include "image" url: "/android-chrome-192x192.png" %}
+**Media Kit**  
+Company related logos, icons, photos, and other media can be found in [this Google Drive folder](https://drive.google.com/drive/folders/1XKvdiJDkiyH3WeUmYv8hwFHdkge3qtE_).
 
 # About Suborbital Salvage
 Test your piloting skills in this endless runner set in a dystopian corporate future! Fly your space ship through the dangerous, hazard-filled orbit of Cetos while collecting salvage. Oh, and please try not to feed the fish - your supervisor won't appreciate the policy violation.
@@ -62,4 +62,4 @@ __Music__
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
 
 # Media kit
-Still screens shots, animated gifs, and other promotion materials can be found in the game's [Google Drive folder](https://drive.google.com/drive/folders/1LIhDITkwCjTnZ7u54c1rlj8tVLIi2uwg?usp=sharing).
+Still screens shots, animated GIFs, and other promotion materials can be found in [this Google Drive folder](https://drive.google.com/drive/folders/1LIhDITkwCjTnZ7u54c1rlj8tVLIi2uwg?usp=sharing).
