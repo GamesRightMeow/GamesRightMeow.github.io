@@ -43,7 +43,7 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 **Release date**: February 11th 2025  
 **Platforms**: [Playdate](https://play.date/)  
 **Languages**: English  
-**Genres**: Action, Endless Runner, Score Chaser  
+**Genres**: Action, Arcade, Endless Runner, Score Chaser  
 
 {% # Store Links %}
 
