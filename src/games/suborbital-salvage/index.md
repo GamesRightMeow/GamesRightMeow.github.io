@@ -32,10 +32,8 @@ __Features:__
 {% include "big-button" label: "presskit", url: "presskit", center: false %}
 
 # Purchase
-- Playdate (Launching on Playdate Catalog on February 11th 2025)
+- Playdate: [Buy on Catalog](https://play.date/games/suborbital-salvage)
 - Steam (Coming later in 2025)
-
-<!-- https://play.date/games/suborbital-salvage -->
 
 # Updates
 - Follow us on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
