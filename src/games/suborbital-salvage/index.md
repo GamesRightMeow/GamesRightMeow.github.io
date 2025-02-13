@@ -42,6 +42,7 @@ __Features:__
 
 # From the garden
 - [Optimizing Suborbital Salvage](/garden/02a8564b90d94d25856783ec776650f2)
+- [Fixing Suborbital's launch day startup crash](/garden/df592b7a386044bc8f1f83213094cc85)
 
 # Media
 {% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
