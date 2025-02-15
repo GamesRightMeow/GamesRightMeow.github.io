@@ -42,7 +42,7 @@ __Features:__
 
 # Press
 - Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
-- Hello Playdate Podcast: [Indie Inventory](https://www.youtube.com/watch?v=-MePhXlTPrk)
+- Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
 
 # From the garden
 - [Optimizing Suborbital Salvage](/garden/02a8564b90d94d25856783ec776650f2)
