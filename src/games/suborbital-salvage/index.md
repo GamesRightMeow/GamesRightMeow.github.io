@@ -40,6 +40,10 @@ __Features:__
 - Join our community on [Discord](https://discord.gg/JzUz6ArETJ)
 - View the [changelog](changelog/)
 
+# Press
+- Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
+- Hello Playdate Podcast: [Indie Inventory](https://www.youtube.com/watch?v=-MePhXlTPrk)
+
 # From the garden
 - [Optimizing Suborbital Salvage](/garden/02a8564b90d94d25856783ec776650f2)
 - [Fixing Suborbital's launch day startup crash](/garden/df592b7a386044bc8f1f83213094cc85)
