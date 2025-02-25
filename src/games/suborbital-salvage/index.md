@@ -29,20 +29,22 @@ __Features:__
 - Over 100+ lines of "motivational" dialog from your cat supervisor.
 - Outperform other employees across 3 online leaderboards.
 
-{% include "big-button" label: "presskit", url: "presskit", center: false %}
+<!-- TODO: icons on buttons for stores? -->
 
-# Purchase
-- Playdate: [Buy on Catalog](https://play.date/games/suborbital-salvage)
-- Steam (Coming later in 2025)
+{% include "big-button" label: "Buy on Catalog", url: "https://play.date/games/suborbital-salvage", center: false %}
 
-# Updates
+<!-- Steam button -->
+
+# Updates & support
 - Follow us on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
 - Join our community on [Discord](https://discord.gg/JzUz6ArETJ)
 - View the [changelog](changelog/)
 
-# Press
+# Press coverage
 - Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
 - Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
+
+Are you a member of the press or an influencer? Checkout the [presskit](presskit/)!
 
 # From the garden
 - [Optimizing Suborbital Salvage](/garden/02a8564b90d94d25856783ec776650f2)

@@ -45,7 +45,12 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 **Languages**: English  
 **Genres**: Action, Arcade, Endless Runner, Score Chaser  
 
-{% # Store Links %}
+# Store links
+- [Playdate Catalog](https://play.date/games/suborbital-salvage)
+
+# Press coverage
+- Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
+- Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
 
 {% # Reviews %}
 
