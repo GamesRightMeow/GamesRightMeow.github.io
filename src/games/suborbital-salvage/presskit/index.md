@@ -52,6 +52,7 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 - Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
 - Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
 - Fletch Makes Stuff: [Playdate Variety Day](https://youtu.be/KedtwmVzBq4?t=4788)
+- Handheld Gameplayer: [7 Playdate Games to pick up](https://www.youtube.com/watch?app=desktop&v=DnXcJjTVqOw&t=947s)
 
 {% # Reviews %}
 
