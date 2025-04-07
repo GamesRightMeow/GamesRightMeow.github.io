@@ -14,10 +14,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   eleventyConfig.addWatchTarget('./_tmp/style.css');
+  
   eleventyConfig.addWatchTarget('./src/projects/**/*');
   eleventyConfig.addWatchTarget('./src/garden/**/*');
   eleventyConfig.addWatchTarget('./src/games/**/*');
   
+  eleventyConfig.addPassthroughCopy('./src/ai.txt');
+
   eleventyConfig.addPassthroughCopy('./src/projects/what-the-fanta/play/**/*');
 
   eleventyConfig.addPassthroughCopy('./src/garden/**/*.webp');
