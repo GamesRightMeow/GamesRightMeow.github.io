@@ -3,6 +3,7 @@ title: Game support
 header: Game support
 permalink: /game-support/
 layout: page
+no-index: true
 ---
 
 Hey there! Are you looking for support for one of my [games](/games/)?
