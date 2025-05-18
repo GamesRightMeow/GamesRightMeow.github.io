@@ -35,18 +35,6 @@ no-index: false
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@800&display=swap">
   <script src=" https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js "></script>
-  
-  {% if env.production %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEVEL0SWTQ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-XEVEL0SWTQ');
-  </script>
-  {% endif %}
 
   <!-- define canonical url google search console -->
   <!-- TODO: may need to expose a conical URL property in front matter in future -->
