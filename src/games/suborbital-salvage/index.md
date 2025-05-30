@@ -23,17 +23,21 @@ cover: /games/suborbital-salvage/cover.webp
 Test your piloting skills in this endless runner set in a dystopian corporate future! Fly your space ship through the dangerous, hazard-filled orbit of Cetos while collecting salvage. Oh, and please try not to feed the fish - your supervisor won't appreciate the policy violation.
 
 __Features:__
+- Master a skill based flight mechanic that allows you to precisely orient your ship.
+- Outpace a giant space fish determined to eat you for lunch.
 - Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
-- Fly your ship with a design specifically created for the crank.
 - Navigate procedurally generated salvage runs assembled from over 100+ hand-crafted level segments across 4 unique regions.
 - Over 100+ lines of "motivational" dialog from your cat supervisor.
-- Outperform other employees across 3 online leaderboards.
+- Outperform other employees across online leaderboards.
 
-<!-- TODO: icons on buttons for stores? -->
+# Purchase
+- [Purchase on Catalog](https://play.date/games/suborbital-salvage)
+- [Purchase on Steam](https://store.steampowered.com/app/3687960/Suborbital_Salvage)
 
-{% include "big-button" label: "Buy on Catalog", url: "https://play.date/games/suborbital-salvage", center: false %}
+<!-- {% include "big-button" label: "Buy on Catalog", url: "https://play.date/games/suborbital-salvage", center: false %}
+{% include "big-button" label: "Buy on Steam", url: "https://store.steampowered.com/app/3687960/Suborbital_Salvage", center: false %} -->
 
-<!-- Steam button -->
+<!-- <iframe src="https://store.steampowered.com/widget/3687960/" frameborder="0" width="646" height="190"></iframe> -->
 
 # Updates & support
 - Follow us on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
@@ -41,6 +45,7 @@ __Features:__
 - View the [changelog](changelog/)
 
 # Coverage
+- Engadget: [Review](https://www.engadget.com/gaming/suborbital-salvage-is-a-thrilling-endless-runner-for-playdate-that-pelts-you-with-asteroids-and-insults-230014518.html)
 - Destination Playdate: [Playdate gameplay + impressions](https://www.youtube.com/watch?v=-MePhXlTPrk)
 - Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
 - Fletch Makes Stuff: [Playdate Variety Day](https://youtu.be/KedtwmVzBq4?t=4788)
