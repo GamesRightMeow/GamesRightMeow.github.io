@@ -5,4 +5,4 @@ permalink: /contact/
 layout: page
 ---
 
-{% include "contact" %}
+{% include "contact" email: true %}
