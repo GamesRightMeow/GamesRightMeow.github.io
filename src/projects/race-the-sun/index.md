@@ -11,10 +11,10 @@ You are a solar-powered craft. The sun is your death timer. Hurtle towards the s
 * [Play on Android](https://play.google.com/store/apps/details?id=com.flippfly.racethesun)
 * [Play on iOS](https://apps.apple.com/us/app/race-the-sun-challenge-edition/id1454414817)
 
-# My responsibilities
+# My role
 I joined the team well after the game's initial launch, so my responsibilities were primarily focused on post-launch features and cleaning up tech debt.
 
-# Key contributions
+# Key Accomplishments
 * Redesigned the ship customization system to provide a more robust and  scalable framework for adding new cosmetics.
 * Refactored the legacy ad management system to handle multiple types of ads from several sources.
 * Provided consultation on setting up an automated build pipeline.

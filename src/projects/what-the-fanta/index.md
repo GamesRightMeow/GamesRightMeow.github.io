@@ -12,10 +12,10 @@ _What the Fanta_ was a marketing campaign for [The Coca-Cola Company](https://ww
 
 The campaign website is now offline, but you can still [play the game](play)! Collect bags of candy and soda bottles while avoiding halloween themed obstacles. When playing on a touch screen device, tap and hold on either the left or right side of the screen to move the bat. When playing on a computer, press and hold the left and right arrow keys.
 
-# My responsibilities
-I responsible for developing an obstacle avoidance game for the campaign in collaboration with [IfThen](https://www.ifthen.com/). My focus was on engineering and game design.
+# My role
+I was responsible for developing an obstacle avoidance game for the campaign in collaboration with [IfThen](https://www.ifthen.com/). My focus was on engineering and game design.
 
-# Key contributions
+# Key Accomplishments
 * Crafted a procedurally generated level system that was stitched together from smaller, hand crafted chunks.
 * Optimized the game to run across a variety of mobile devices and desktop browsers.
 * Tuned the difficulty to create a challenging, yet accessible experience.

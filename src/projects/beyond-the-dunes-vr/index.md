@@ -1,7 +1,6 @@
 ---
 title: "Beyond the Dunes VR"
 header: "White Sands National Park: Beyond the Dunes VR"
-tags: featured-project
 layout: project
 cover: /projects/beyond-the-dunes-vr/cover_art.webp
 ---
@@ -10,11 +9,12 @@ White Sands National Park: Beyond the Dunes VR transports you into the microbiom
 
 [Official website](https://www.beyondthedunesvr.com/)
 
-# My responsibilities
-I worked with the [Innovative Media Research and Extension](http://innovativemedia.nmsu.edu/) at New Mexico State University to create a stationary VR experience available to visitors onsite at White Sands National Park. My focus was on
+# My role
+In collaboration with [Innovative Media Research and Extension](http://innovativemedia.nmsu.edu/) at New Mexico State University, I worked as the engineer and game designer to create a stationary VR experience available to visitors onsite at White Sands National Park.
 
-# Key contributions
+# Key Accomplishments
 * Developed a content management system that allowed the client to freely add new regions, videos, and other content without requiring code updates.
+* Created authoring and validation tools to aide content creation.
 * Optimized the experience to run on the Meta Quest 2.
 
 # Media
