@@ -36,4 +36,5 @@ I provide a variety of game-related services that help bring new projects to lif
 
 [Carrie Ray-Hill](https://www.linkedin.com/in/carrie-ray-hill-70519a24), Senior Director of Digital Learning at [iCivics Inc](https://www.icivics.org/).
 
-{% include "big-button" label: "let's talk", url: "/contact" %}
+# Contact
+{% include "contact" email: true %}
