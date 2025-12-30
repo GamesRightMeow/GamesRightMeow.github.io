@@ -50,6 +50,8 @@ __Features:__
 - Hello Playdate Podcast: [Indie Inventory](https://sites.libsyn.com/412607/top-10-games-of-2024)
 - Fletch Makes Stuff: [Playdate Variety Day](https://youtu.be/KedtwmVzBq4?t=4788)
 - Handheld Gameplayer: [7 Playdate Games to pick up](https://www.youtube.com/watch?app=desktop&v=DnXcJjTVqOw&t=947s)
+- Playdate Direct: [Fall 2024](https://www.youtube.com/watch?v=KQgmSDwW_2M&t=2157s)
+- Uncrank'd Magazine: [Issue #6](https://uncrankd.myshopify.com/products/uncrank-d-issue-6-digital)
 
 Are you a member of the press or an influencer? Checkout the [presskit](presskit/)!
 
