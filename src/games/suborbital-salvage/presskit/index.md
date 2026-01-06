@@ -41,8 +41,10 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 **Developer**: [Games Right Meow](gamesrightmeow.com)  
 **Website**: [gamesrightmeow.com/suborbital-salvage](/games/suborbital-salvage)  
 **Press contact**: press[at]gamesrightmeow.com  
-**Release date**: February 11th 2025  
-**Platforms**: [Playdate](https://play.date/)  
+**Release date**: 
+- Playdate: February 11th 2025  
+- Steam: February 11th 2025  
+**Platforms**: [Playdate](https://play.date/) + [Steam](https://store.steampowered.com/)
 **Languages**: English  
 **Genres**: Action, Arcade, Endless Runner, Score Chaser  
 
@@ -69,7 +71,7 @@ __Music__
 - ["Behind the Darkness"](https://davidkbd.itch.io/code-injection-dark-techno-music-pack) by [DavidKBD](https://davidkbd.itch.io/) is licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0).
 
 # Videos
-{% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
+{% include "youtube" url: "https://www.youtube.com/embed/RoY_m3VqMMI?si=919vvY9J5Ur49uE4" %}
 
 # Media kit
 Still screens shots, animated GIFs, and other promotion materials can be found in [this Google Drive folder](https://drive.google.com/drive/folders/1LIhDITkwCjTnZ7u54c1rlj8tVLIi2uwg?usp=sharing).

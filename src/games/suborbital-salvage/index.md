@@ -23,12 +23,14 @@ cover: /games/suborbital-salvage/cover.webp
 Test your piloting skills in this endless runner set in a dystopian corporate future! Fly your space ship through the dangerous, hazard-filled orbit of Cetos while collecting salvage. Oh, and please try not to feed the fish - your supervisor won't appreciate the policy violation.
 
 __Features:__
-- Master a skill based flight mechanic that allows you to precisely orient your ship.
-- Outpace a giant space fish determined to eat you for lunch.
-- Avoid asteroids, space mines, rogue missiles, and 50+ other hazards.
-- Navigate procedurally generated salvage runs assembled from over 100+ hand-crafted level segments across 4 unique regions.
-- Over 100+ lines of "motivational" dialog from your cat supervisor.
-- Outperform other employees across online leaderboards.
+- Master __a skill based flight mechanic__ that allows you to precisely orient your ship.
+- Outpace __a giant space fish__ determined to eat you for lunch.
+- Avoid asteroids, space mines, rogue missiles, and __50+ other hazards__.
+- Navigate __procedurally generated runs__ assembled from over __100+ hand-crafted level segments__.
+- Progress across __4 unique regions__.
+- Receive over 100+ lines of "motivational" dialog from __your cat supervisor__.
+- Outperform other employees across __online leaderboards__.
+- Enable an __optional assist mode__ to adjust the difficulty.
 
 # Purchase
 - [Purchase on Catalog](https://play.date/games/suborbital-salvage)
@@ -40,9 +42,11 @@ __Features:__
 <!-- <iframe src="https://store.steampowered.com/widget/3687960/" frameborder="0" width="646" height="190"></iframe> -->
 
 # Updates & support
-- Follow us on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
-- Join our community on [Discord](https://discord.gg/JzUz6ArETJ)
-- View the [changelog](changelog/)
+- Reach out for [game support](https://gamesrightmeow.com/game-support/)
+- Follow on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
+- Join the community on [Discord](https://discord.gg/JzUz6ArETJ)
+- View the [Playdate changelog](changelog/)
+- View the [Steam release notes](https://store.steampowered.com/news/app/3687960?updates=true)
 
 # Coverage
 - Engadget: [Review](https://www.engadget.com/gaming/suborbital-salvage-is-a-thrilling-endless-runner-for-playdate-that-pelts-you-with-asteroids-and-insults-230014518.html)
@@ -60,18 +64,14 @@ Are you a member of the press or an influencer? Checkout the [presskit](presskit
 - [Fixing Suborbital's launch day startup crash](/garden/df592b7a386044bc8f1f83213094cc85)
 
 # Media
-{% include "youtube" url: "https://www.youtube.com/embed/2MaBriXyV8c?si=3yppEnupr_p055dT" %}
+{% include "youtube" url: "https://www.youtube.com/embed/RoY_m3VqMMI?si=919vvY9J5Ur49uE4" %}
 
-{% include "image" url: "/games/suborbital-salvage/suborbital-gameplay-x2.webp" alt: "Gameplay from Suborbital Salvage." %}
+{% include "image" url: "/games/suborbital-salvage/gameplay.webp" alt: "" %}
 
-{% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_7.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_8.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_2.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_9.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_4.webp" alt: "" %}
 {% include "image" url: "/games/suborbital-salvage/Screenshot_5.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_10.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_3.webp" alt: "" %}
-{% include "image" url: "/games/suborbital-salvage/Screenshot_1.webp" alt: "" %}
+{% include "image" url: "/games/suborbital-salvage/Screenshot_6.webp" alt: "" %}
 
