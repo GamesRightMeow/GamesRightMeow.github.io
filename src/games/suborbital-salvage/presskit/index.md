@@ -41,9 +41,8 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 **Developer**: [Games Right Meow](gamesrightmeow.com)  
 **Website**: [gamesrightmeow.com/suborbital-salvage](/games/suborbital-salvage)  
 **Press contact**: press[at]gamesrightmeow.com  
-**Release date**: 
-- Playdate: February 11th 2025  
-- Steam: February 11th 2025  
+**Playdate Release date**: February 11th 2025  
+**Steam Release date**: February 11th 2026  
 **Platforms**: [Playdate](https://play.date/) + [Steam](https://store.steampowered.com/)
 **Languages**: English  
 **Genres**: Action, Arcade, Endless Runner, Score Chaser  
