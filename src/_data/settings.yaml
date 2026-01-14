@@ -1,6 +1,6 @@
 {
   "site": {
-    "description": "Games Right Meow is an independent game studio and game development consultancy based in Silicon Valley.",
+    "description": "Games Right Meow is an independent game studio and game development consultancy.",
   },
   "navigation": [
     { "name": "home", "url": "/" },
