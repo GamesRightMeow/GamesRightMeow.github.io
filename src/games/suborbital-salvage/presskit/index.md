@@ -59,6 +59,7 @@ Test your piloting skills in this endless runner set in a dystopian corporate fu
 - Handheld Gameplayer: [7 Playdate Games to pick up](https://www.youtube.com/watch?app=desktop&v=DnXcJjTVqOw&t=947s)
 - Playdate Direct: [Fall 2024](https://www.youtube.com/watch?v=KQgmSDwW_2M&t=2157s)
 - Uncrank'd Magazine: [Issue #6](https://uncrankd.myshopify.com/products/uncrank-d-issue-6-digital)
+- Linux Game Consortium: [Review](https://linuxgameconsortium.com/suborbital-salvage-arcade-chaos-done-right/)
 
 # Credits
 __Team__

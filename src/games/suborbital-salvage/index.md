@@ -56,6 +56,7 @@ __Features:__
 - Handheld Gameplayer: [7 Playdate Games to pick up](https://www.youtube.com/watch?app=desktop&v=DnXcJjTVqOw&t=947s)
 - Playdate Direct: [Fall 2024](https://www.youtube.com/watch?v=KQgmSDwW_2M&t=2157s)
 - Uncrank'd Magazine: [Issue #6](https://uncrankd.myshopify.com/products/uncrank-d-issue-6-digital)
+- Linux Game Consortium: [Review](https://linuxgameconsortium.com/suborbital-salvage-arcade-chaos-done-right/)
 
 Are you a member of the press or an influencer? Checkout the [presskit](presskit/)!
 
