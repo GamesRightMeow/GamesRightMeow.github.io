@@ -2,6 +2,7 @@
 title: Suborbital Salvage
 layout: game
 cover: /games/suborbital-salvage/cover.webp
+date: 2026-02-01
 ---
 
 ![Key art for the game featuring a fish about to eat a space ship while orbiting around the fiction planet Cetos.](/games/suborbital-salvage/cover.webp)

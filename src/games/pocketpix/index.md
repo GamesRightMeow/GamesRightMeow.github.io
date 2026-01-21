@@ -3,6 +3,7 @@ title: Pocket Pix
 header: Pocket Pix
 layout: game
 cover: /games/pocketpix/cover.webp
+date: 2023-08-01
 ---
 
 Pocket Pix is a toy for creating and animating low-res pixel art on your [Playdate](https://play.date/). It's currently in early access, so please excuse missing features and bugs.

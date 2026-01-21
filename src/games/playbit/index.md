@@ -3,6 +3,7 @@ title: Playbit
 header: Playbit
 layout: game
 cover: /games/playbit/playbit-logo.webp
+date: 2022-05-01
 ---
 Playbit is a framework for creating cross-platform Playdate games from a single Lua codebase. To accomplish this, it has two key components:
 
