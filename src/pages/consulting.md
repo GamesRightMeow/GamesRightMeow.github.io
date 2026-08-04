@@ -24,6 +24,10 @@ I provide a variety of game-related services that help bring new projects to lif
 [See all client projects](/projects)
 
 # testimonials
+> My game Hello Again was having some tricky performance issues, and Alex was extremely helpful in both diagnosing the source of the problem and consulting on a path of action. With his advice and clear explanations, I was able to rectify the issues 10x faster than if I had tried to tackle the problem alone. His broad expertise, efficiency, and communication skills made him the ideal teammate! What are you waiting for, just hire Alex already
+
+[Dwight Davis](https://www.linkedin.com/in/dwight-davis-design) Owner at [Soup Island](https://soupisland.com/)
+
 > Alex helped out with our mobile game Race The Sun:Challenge Edition, and was basically productive on the project on day one. He took every task I threw at him and figured it out independently; he's consistently delivered high quality work, on schedule; and he's an awesome communicator. Highly recommend hiring him!
 
 [Aaron San Filippo](https://www.linkedin.com/in/aaronsanfilippo), Co-Owner at [Flippfly](https://flippfly.com/)
