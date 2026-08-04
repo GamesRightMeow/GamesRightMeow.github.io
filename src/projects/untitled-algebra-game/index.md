@@ -10,13 +10,14 @@ _Untitled Algebra Game_ was an educational game that I worked on with [Filament 
 The goal of the project was to help students visualize and perform operations on exponents by combining and separating groups of cells. Players would be given the tools of a biology laboratory, using pipettes to load operations onto cells on a substrate.
 
 # My role
-As the project's lead engineer, I was responsible for all engineering tasks; from planning to execution. I worked closely with Filament's design and art team to make sure expectations were aligned with project constraints (hardware, timeline, etc).
+Lead engineer responsible for end-to-end engineering: planning, implementation, and delivery. Collaborated closely with Filament's design and art teams to align creative vision with technical constraints (hardware limits, timelines, scope).
 
 # Key Accomplishments
-* Created a [metaball](https://en.wikipedia.org/wiki/Metaballs) shader with Shader Graph to achieve a cell-like visual effect. For a deeper dive on how I implemented metaballs, check out [this article in the garden](/garden/metaballs).
-* Wrote a mathematical expression parser.
-* Developed a system for visualizing exponents as cells.
-* Created a comprehensive handoff document to allow Filament to easily resume the project at a later date.
+
+* **Metaball Shader System**: Built a custom shader using Shader Graph to render cell-like visual effects. S[ee implementation details](/garden/metaballs).
+* **Mathematical Expression Parser**: Engineered a parser capable of evaluating dynamic mathematical expressions at runtime.
+* **Exponent Visualization**: Developed a novel system mapping exponents to cell representations, bridging abstract math with visual feedback.
+* **Project Handoff Documentation**: Delivered comprehensive documentation enabling seamless project continuation for future developers.
 
 # Media
 {% include "image" url: "/projects/untitled-algebra-game/sag-metaball-shader.webp" alt: "Metaball shader" %}

@@ -12,12 +12,12 @@ You are a solar-powered craft. The sun is your death timer. Hurtle towards the s
 * [Play on iOS](https://apps.apple.com/us/app/race-the-sun-challenge-edition/id1454414817)
 
 # My role
-I joined the team well after the game's initial launch, so my responsibilities were primarily focused on post-launch features and cleaning up tech debt.
+Joined post-launch to deliver new features while modernizing the codebase. Focused on what players experienced and what kept things running smoothly.
 
 # Key Accomplishments
-* Redesigned the ship customization system to provide a more robust and  scalable framework for adding new cosmetics.
-* Refactored the legacy ad management system to handle multiple types of ads from several sources.
-* Provided consultation on setting up an automated build pipeline.
+* **Ship Customization System**: Redesigned the architecture to support scalable cosmetic additions without technical debt accumulation.
+* **Management Refactor**: Consolidated legacy ad handling into a unified system capable of managing multiple vendors and formats.
+* **Pipeline Consultation**: Guided the team in establishing automated build processes for faster, more reliable deployments.
 
 # Media
 {% include "image" url: "/projects/race-the-sun/TVBanner.webp" alt: "Feature graphic" %}

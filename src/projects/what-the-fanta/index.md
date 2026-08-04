@@ -1,7 +1,7 @@
 ---
 title: What the Fanta
 header: What the Fanta
-tags: featured-project
+
 layout: project
 cover: /projects/what-the-fanta/landing.webp
 ---
@@ -13,12 +13,12 @@ _What the Fanta_ was a marketing campaign for [The Coca-Cola Company](https://ww
 The campaign website is now offline, but you can still [play the game](play)! Collect bags of candy and soda bottles while avoiding halloween themed obstacles. When playing on a touch screen device, tap and hold on either the left or right side of the screen to move the bat. When playing on a computer, press and hold the left and right arrow keys.
 
 # My role
-I was responsible for developing an obstacle avoidance game for the campaign in collaboration with [IfThen](https://www.ifthen.com/). My focus was on engineering and game design.
+Collaborated with [IfThen](https://www.ifthen.com/) to develop an obstacle avoidance game for their campaign. Owned both engineering and game design responsibilities.
 
 # Key Accomplishments
-* Crafted a procedurally generated level system that was stitched together from smaller, hand crafted chunks.
-* Optimized the game to run across a variety of mobile devices and desktop browsers.
-* Tuned the difficulty to create a challenging, yet accessible experience.
+* **Procedural Level Generation**: Built a system stitching hand-crafted chunks into procedurally assembled levels, combining authored design with replayability.
+* **Cross-Platform Optimization**: Tuned performance to run smoothly across mobile devices and desktop browsers with varying capabilities.
+* **Difficulty Balancing**: Calibrated the challenge curve to remain engaging for skilled players while staying accessible to newcomers.
 
 # Media
 

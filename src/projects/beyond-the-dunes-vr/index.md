@@ -10,12 +10,12 @@ White Sands National Park: Beyond the Dunes VR transports you into the microbiom
 [Official website](https://www.beyondthedunesvr.com/)
 
 # My role
-In collaboration with [Innovative Media Research and Extension](http://innovativemedia.nmsu.edu/) at New Mexico State University, I worked as the engineer and game designer to create a stationary VR experience available to visitors onsite at White Sands National Park.
+Partnered with [Innovative Media Research and Extension](http://innovativemedia.nmsu.edu/) at New Mexico State University as lead engineer and game designer. Delivered a stationary VR experience for onsite visitors at White Sands National Park.
 
 # Key Accomplishments
-* Developed a content management system that allowed the client to freely add new regions, videos, and other content without requiring code updates.
-* Created authoring and validation tools to aide content creation.
-* Optimized the experience to run on the Meta Quest 2.
+* **Client-Owned Content Pipeline**: Built a CMS in Unity that let the client publish new regions and videos without engineering intervention.
+* **Content Creation Workflow**: Designed authoring and validation tools to reduce friction and errors during asset production.
+* **Hardware-Specific Tuning**: Optimized the experience for Meta Quest 2, balancing visual fidelity with performance constraints.
 
 # Media
 {% include "youtube" url: "https://www.beyondthedunesvr.com/WS_Trailer.mp4" %}
