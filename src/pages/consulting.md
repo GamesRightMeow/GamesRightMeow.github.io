@@ -5,17 +5,16 @@ permalink: /consulting/
 layout: page
 ---
 
-I provide a variety of game-related services that help bring new projects to life, improve existing ones, and make the development process more efficient. For example:
+I help game studios and indie developers ship better games, faster. Whether you need a gnarly bug squashed, a new platform ported, or your build pipeline running like clockwork, I bring deep technical expertise and a track record of shipping under pressure. Here's how I can help:
 
-* Implement a new feature.
-* Lead development on a new project.
-* Port your game to another platform.
-* Automate your build pipeline.
-* Identify and implement optimizations.
-* Build tools to automate tedious manual tasks.
-* Refactor legacy code.
-* Cleanup a tech debt backlog.
-* ...and more!
+* **Implement new features** that fit seamlessly into what you've already built.
+* **Lead development** on your next project, start to finish.
+* **Expand your reach** with a clean, reliable port to a new platform.
+* **Streamline your build pipeline** and get hours back every release.
+* **Find and fix performance bottlenecks** that are quietly slowing down your game.
+* **Build custom tools** that remove the tedious, manual busywork.
+* **Refactor legacy code** into something you can actually build on.
+* **Tackle the tech debt** everyone's been avoiding.
 
 # featured client projects
 
