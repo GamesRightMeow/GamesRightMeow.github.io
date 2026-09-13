@@ -33,7 +33,10 @@ __Features:__
 - Outperform other employees across __online leaderboards__.
 - Enable an __optional assist mode__ to adjust the difficulty.
 
-# Purchase
+__AI Disclosure:__  
+This game was made without AI. For more, see my [AI Policy](/ai/).
+
+__Purchase:__
 - [Purchase on Catalog](https://play.date/games/suborbital-salvage)
 - [Purchase on Steam](https://store.steampowered.com/app/3687960/Suborbital_Salvage)
 
@@ -42,7 +45,7 @@ __Features:__
 
 <!-- <iframe src="https://store.steampowered.com/widget/3687960/" frameborder="0" width="646" height="190"></iframe> -->
 
-# Updates & support
+__Updates & support:__
 - Reach out for [game support](https://gamesrightmeow.com/game-support/)
 - Follow on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
 - Join the community on [Discord](https://discord.gg/JzUz6ArETJ)

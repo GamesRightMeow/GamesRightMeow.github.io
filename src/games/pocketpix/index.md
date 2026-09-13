@@ -23,3 +23,6 @@ Current features:
 {% include "image" url: "/games/pocketpix/earth.webp" alt: "Animated earth spinning gif" %}
 {% include "image" url: "/games/pocketpix/ball.webp" alt: "Animated ball bouncing gif" %}
 {% include "image" url: "/games/pocketpix/timeline.webp" alt: "Still image of PocketPix's animation timeline" %}
+
+# AI Disclosure
+This toy was made without AI. For more, see my [AI Policy](/ai/).

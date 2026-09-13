@@ -27,3 +27,6 @@ Additionally, if you're not creating a cross-platform game, all Playdate SDK fun
 # Further reading
 - [Github project](https://github.com/GamesRightMeow/playbit)
 - [Documentation](https://github.com/GamesRightMeow/playbit/tree/main/docs)
+
+# AI Disclosure
+AI was used to help write and review code. For more, see my [AI Policy](/ai/).
