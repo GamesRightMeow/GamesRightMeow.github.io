@@ -45,7 +45,7 @@ __Purchase:__
 
 <!-- <iframe src="https://store.steampowered.com/widget/3687960/" frameborder="0" width="646" height="190"></iframe> -->
 
-# Updates & support
+__Updates & support:__
 - Reach out for [game support](https://gamesrightmeow.com/game-support/)
 - Follow on [Bluesky](https://bsky.app/profile/gamesrightmeow.com)
 - Join the community on [Discord](https://discord.gg/JzUz6ArETJ)
