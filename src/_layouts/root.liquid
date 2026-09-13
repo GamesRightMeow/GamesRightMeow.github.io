@@ -78,14 +78,19 @@ no-index: false
 
     <!-- footer -->
     <div class="flex flex-col items-center text-gray-700">
-      <div class="flex flex-col sm:flex-row items-center justify-center p-2">
+      <div class="flex flex-col flex-row items-center justify-center p-2 text-xs md:text-base">
         <div class="text-end">© 2023-{{ "now" | date: "%Y" }} GAMES RIGHT MEOW LLC</div>
-        <p class="px-4 h-0 sm:h-auto invisible sm:visible">|</p>
         <a 
           href="/privacy" 
           class="no-underline hover:bg-gray-800">
-          Privacy
-        </div>
+          Privacy Notice
+        </a>
+        
+        <a 
+          href="/ai" 
+          class="no-underline hover:bg-gray-800">
+          AI Policy
+        </a>
       </div>
     </div>
   </div>
