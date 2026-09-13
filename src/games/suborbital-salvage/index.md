@@ -33,7 +33,10 @@ __Features:__
 - Outperform other employees across __online leaderboards__.
 - Enable an __optional assist mode__ to adjust the difficulty.
 
-# Purchase
+__AI Disclosure:__  
+This game was made without AI. For more, see my [AI Notice](/ai/).
+
+__Purchase:__
 - [Purchase on Catalog](https://play.date/games/suborbital-salvage)
 - [Purchase on Steam](https://store.steampowered.com/app/3687960/Suborbital_Salvage)
 
