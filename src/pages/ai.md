@@ -1,6 +1,6 @@
 ---
-title: AI Policy
-header: AI Policy
+title: AI Notice
+header: AI Notice
 permalink: /ai/
 layout: page
 ---
@@ -18,7 +18,7 @@ I use AI as a tool, but everything I ship is my responsibility: the good and the
 # Where I Use AI
 
 ## Writing assistance
-I use AI as a drafting aid for content inside my games (e.g. dialog, narrative, etc) as well as outside (e.g. marketing copy, web pages, etc). I specifically like to use it for finding alternative words/phrases and polishing content. Every piece of text is refined and finalized by me. This includes this policy itself, which was drafted with AI and edited by me before publishing.
+I use AI as a drafting aid for content inside my games (e.g. dialog, narrative, etc) as well as outside (e.g. marketing copy, web pages, etc). I specifically like to use it for finding alternative words/phrases and polishing content. Every piece of text is refined and finalized by me. This includes this notice itself, which was drafted with AI and edited by me before publishing.
 
 ## Code
 AI helps me write, debug, and refactor code faster. I keep prompts detailed and specific, relying on my 12+ years of experience to make the calls, rather than giving the AI room to improvise. I review everything myself before it ships.
@@ -38,6 +38,6 @@ I have a collection of sound effects I've purchased over the years from other hu
 Music in my games is either from purchased premade music packs, or original sound tracks that I've hired human musicians to create.
 
 # How I Disclose AI Use Per Project
-Broad statements only go so far, so each project I release gets its own specific disclosure, published on the project's page or store listing alongside this policy.
+Broad statements only go so far, so each project I release gets its own specific disclosure, published on the project's page or store listing alongside this notice.
 
 Some projects I'll develop without AI at all. In those cases, I'll simply say so: "This project was made without AI." 
