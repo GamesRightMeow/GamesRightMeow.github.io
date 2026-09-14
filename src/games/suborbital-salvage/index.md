@@ -34,7 +34,7 @@ __Features:__
 - Enable an __optional assist mode__ to adjust the difficulty.
 
 __AI Disclosure:__  
-This game was made without AI. For more, see my [AI Policy](/ai/).
+This game was made without AI. For more, see my [AI Notice](/ai/).
 
 __Purchase:__
 - [Purchase on Catalog](https://play.date/games/suborbital-salvage)
