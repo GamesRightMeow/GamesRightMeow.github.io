@@ -25,4 +25,4 @@ Current features:
 {% include "image" url: "/games/pocketpix/timeline.webp" alt: "Still image of PocketPix's animation timeline" %}
 
 # AI Disclosure
-This toy was made without AI. For more, see my [AI Policy](/ai/).
+This toy was made without AI. For more, see my [AI Notice](/ai/).
