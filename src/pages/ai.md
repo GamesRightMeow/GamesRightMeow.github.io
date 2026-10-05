@@ -5,9 +5,9 @@ permalink: /ai/
 layout: page
 ---
 
-_Last updated September 13th 2026_
+_Last updated October 5th 2026_
 
-I'm a solo dev with a full-time job, which means my game-making hours are whatever's left over — evenings, weekends, the early hours. I'm exploring how AI can help me make better use of those hours, and the details below reflect where that experiment currently stands. They'll likely change as I learn more about what works and what doesn't, and I'll update this page when they do.
+I'm a solo dev with a full-time job, which means my game-making hours are whatever is left over — evenings, weekends, the early hours. I'm exploring how AI can help me make better use of those hours, and the details below reflect where that experiment currently stands. They'll likely change as I learn more about what works and what doesn't, and I'll update this page when they do.
 
 There's one rule I'm not experimenting with: I make my games _with_ AI, but my games aren't made _by_ AI.
 
@@ -18,13 +18,10 @@ I use AI as a tool, but everything I ship is my responsibility: the good and the
 # Where I Use AI
 
 ## Writing assistance
-I use AI as a drafting aid for content inside my games (e.g. dialog, narrative, etc) as well as outside (e.g. marketing copy, web pages, etc). I specifically like to use it for finding alternative words/phrases and polishing content. Every piece of text is refined and finalized by me. This includes this notice itself, which was drafted with AI and edited by me before publishing.
+I use AI as a drafting aid for content inside my games (e.g. dialog, narrative, etc) as well as outside (e.g. marketing copy, web pages, etc), including this notice itself. I most commonly like to use it for finding alternative words/phrases and polishing content. Every piece of text is refined and finalized by me.
 
 ## Code
 AI helps me write, debug, and refactor code faster. I keep prompts detailed and specific, relying on my 12+ years of experience to make the calls, rather than giving the AI room to improvise. I review everything myself before it ships.
-
-## Third-party tools
-The engines, plugins, and platforms I use to make and distribute my games are built by other companies and developers, and I don't audit how they use AI internally. Game engines, asset store tools, analytics, and other third-party software may incorporate AI-generated code or AI-assisted features as part of their own development. 
 
 # Where I Don't Use AI
 
@@ -36,6 +33,9 @@ I have a collection of sound effects I've purchased over the years from other hu
 
 ## Music
 Music in my games is either from purchased premade music packs, or original sound tracks that I've hired human musicians to create.
+
+# A note on third-party tools
+The engines, plugins, and other third-party software I use to make and distribute my games are built by other companies and developers, and I don't audit how they use AI internally to build their products. Third-party software may incorporate AI-generated code and assets as part of their own development. 
 
 # How I Disclose AI Use Per Project
 Broad statements only go so far, so each project I release gets its own specific disclosure, published on the project's page or store listing alongside this notice.
