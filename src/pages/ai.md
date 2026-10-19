@@ -5,7 +5,7 @@ permalink: /ai/
 layout: page
 ---
 
-_Last updated October 5th 2026_
+_Last updated October 19th 2026_
 
 I'm a solo dev with a full-time job, which means my game-making hours are whatever is left over — evenings, weekends, the early hours. I'm exploring how AI can help me make better use of those hours, and the details below reflect where that experiment currently stands. They'll likely change as I learn more about what works and what doesn't, and I'll update this page when they do.
 
@@ -25,8 +25,8 @@ AI helps me write, debug, and refactor code faster. I keep prompts detailed and 
 
 # Where I Don't Use AI
 
-## Art
-No AI-made characters, environments, concept art, promo assets, or visuals of any kind. 
+## Visual assets
+No AI-generated 2D or 3D assets, including (but not limited to) models, textures, sprites, illustrations, concept art, UI graphics, and promotional images.
 
 ## Sound effects
 I have a collection of sound effects I've purchased over the years from other humans that I use as-is, or further refine in audio editing tools.
