@@ -9,6 +9,11 @@ This changelog is for the [Playdate version of Suborbital Salvage](https://play.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# 1.2.1 (10/22/26)
+
+## Fixed
+- Fixed an exploit for getting impossibly large distance scores
+
 # 1.2.0 (02/11/26)
 
 ## Added
